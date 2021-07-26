@@ -1,0 +1,4014 @@
+[
+  {
+    "Valor": 0,
+    "Nombre": "cero"
+  },
+  {
+    "Valor": 1,
+    "Nombre": "uno"
+  },
+  {
+    "Valor": 2,
+    "Nombre": "dos"
+  },
+  {
+    "Valor": 3,
+    "Nombre": "tres"
+  },
+  {
+    "Valor": 4,
+    "Nombre": "cuatro"
+  },
+  {
+    "Valor": 5,
+    "Nombre": "cinco"
+  },
+  {
+    "Valor": 6,
+    "Nombre": "seis"
+  },
+  {
+    "Valor": 7,
+    "Nombre": "siete"
+  },
+  {
+    "Valor": 8,
+    "Nombre": "ocho"
+  },
+  {
+    "Valor": 9,
+    "Nombre": "nueve"
+  },
+  {
+    "Valor": 10,
+    "Nombre": "diez"
+  },
+  {
+    "Valor": 11,
+    "Nombre": "once"
+  },
+  {
+    "Valor": 12,
+    "Nombre": "doce"
+  },
+  {
+    "Valor": 13,
+    "Nombre": "trece"
+  },
+  {
+    "Valor": 14,
+    "Nombre": "catorce"
+  },
+  {
+    "Valor": 15,
+    "Nombre": "quince"
+  },
+  {
+    "Valor": 16,
+    "Nombre": "dieciséis"
+  },
+  {
+    "Valor": 17,
+    "Nombre": "diecisiete"
+  },
+  {
+    "Valor": 18,
+    "Nombre": "dieciocho"
+  },
+  {
+    "Valor": 19,
+    "Nombre": "diecinueve"
+  },
+  {
+    "Valor": 20,
+    "Nombre": "veinte"
+  },
+  {
+    "Valor": 21,
+    "Nombre": "veintiuno"
+  },
+  {
+    "Valor": 22,
+    "Nombre": "veintidós"
+  },
+  {
+    "Valor": 23,
+    "Nombre": "veintitrés"
+  },
+  {
+    "Valor": 24,
+    "Nombre": "veinticuatro"
+  },
+  {
+    "Valor": 25,
+    "Nombre": "veinticinco"
+  },
+  {
+    "Valor": 26,
+    "Nombre": "veintiséis"
+  },
+  {
+    "Valor": 27,
+    "Nombre": "veintisiete"
+  },
+  {
+    "Valor": 28,
+    "Nombre": "veintiocho"
+  },
+  {
+    "Valor": 29,
+    "Nombre": "veintinueve"
+  },
+  {
+    "Valor": 30,
+    "Nombre": "treinta"
+  },
+  {
+    "Valor": 31,
+    "Nombre": "treinta y uno"
+  },
+  {
+    "Valor": 32,
+    "Nombre": "treinta y dos"
+  },
+  {
+    "Valor": 33,
+    "Nombre": "treinta y tres"
+  },
+  {
+    "Valor": 34,
+    "Nombre": "treinta y cuatro"
+  },
+  {
+    "Valor": 35,
+    "Nombre": "treinta y cinco"
+  },
+  {
+    "Valor": 36,
+    "Nombre": "treinta y seis"
+  },
+  {
+    "Valor": 37,
+    "Nombre": "treinta y siete"
+  },
+  {
+    "Valor": 38,
+    "Nombre": "treinta y ocho"
+  },
+  {
+    "Valor": 39,
+    "Nombre": "treinta y nueve"
+  },
+  {
+    "Valor": 40,
+    "Nombre": "cuarenta"
+  },
+  {
+    "Valor": 41,
+    "Nombre": "cuarenta y uno"
+  },
+  {
+    "Valor": 42,
+    "Nombre": "cuarenta y dos"
+  },
+  {
+    "Valor": 43,
+    "Nombre": "cuarenta y tres"
+  },
+  {
+    "Valor": 44,
+    "Nombre": "cuarenta y cuatro"
+  },
+  {
+    "Valor": 45,
+    "Nombre": "cuarenta y cinco"
+  },
+  {
+    "Valor": 46,
+    "Nombre": "cuarenta y seis"
+  },
+  {
+    "Valor": 47,
+    "Nombre": "cuarenta y siete"
+  },
+  {
+    "Valor": 48,
+    "Nombre": "cuarenta y ocho"
+  },
+  {
+    "Valor": 49,
+    "Nombre": "cuarenta y nueve"
+  },
+  {
+    "Valor": 50,
+    "Nombre": "cincuenta"
+  },
+  {
+    "Valor": 51,
+    "Nombre": "cincuenta y uno"
+  },
+  {
+    "Valor": 52,
+    "Nombre": "cincuenta y dos"
+  },
+  {
+    "Valor": 53,
+    "Nombre": "cincuenta y tres"
+  },
+  {
+    "Valor": 54,
+    "Nombre": "cincuenta y cuatro"
+  },
+  {
+    "Valor": 55,
+    "Nombre": "cincuenta y cinco"
+  },
+  {
+    "Valor": 56,
+    "Nombre": "cincuenta y seis"
+  },
+  {
+    "Valor": 57,
+    "Nombre": "cincuenta y siete"
+  },
+  {
+    "Valor": 58,
+    "Nombre": "cincuenta y ocho"
+  },
+  {
+    "Valor": 59,
+    "Nombre": "cincuenta y nueve"
+  },
+  {
+    "Valor": 60,
+    "Nombre": "sesenta"
+  },
+  {
+    "Valor": 61,
+    "Nombre": "sesenta y uno"
+  },
+  {
+    "Valor": 62,
+    "Nombre": "sesenta y dos"
+  },
+  {
+    "Valor": 63,
+    "Nombre": "sesenta y tres"
+  },
+  {
+    "Valor": 64,
+    "Nombre": "sesenta y cuatro"
+  },
+  {
+    "Valor": 65,
+    "Nombre": "sesenta y cinco"
+  },
+  {
+    "Valor": 66,
+    "Nombre": "sesenta y seis"
+  },
+  {
+    "Valor": 67,
+    "Nombre": "sesenta y siete"
+  },
+  {
+    "Valor": 68,
+    "Nombre": "sesenta y ocho"
+  },
+  {
+    "Valor": 69,
+    "Nombre": "sesenta y nueve"
+  },
+  {
+    "Valor": 70,
+    "Nombre": "setenta"
+  },
+  {
+    "Valor": 71,
+    "Nombre": "setenta y uno"
+  },
+  {
+    "Valor": 72,
+    "Nombre": "setenta y dos"
+  },
+  {
+    "Valor": 73,
+    "Nombre": "setenta y tres"
+  },
+  {
+    "Valor": 74,
+    "Nombre": "setenta y cuatro"
+  },
+  {
+    "Valor": 75,
+    "Nombre": "setenta y cinco"
+  },
+  {
+    "Valor": 76,
+    "Nombre": "setenta y seis"
+  },
+  {
+    "Valor": 77,
+    "Nombre": "setenta y siete"
+  },
+  {
+    "Valor": 78,
+    "Nombre": "setenta y ocho"
+  },
+  {
+    "Valor": 79,
+    "Nombre": "setenta y nueve"
+  },
+  {
+    "Valor": 80,
+    "Nombre": "ochenta"
+  },
+  {
+    "Valor": 81,
+    "Nombre": "ochenta y uno"
+  },
+  {
+    "Valor": 82,
+    "Nombre": "ochenta y dos"
+  },
+  {
+    "Valor": 83,
+    "Nombre": "ochenta y tres"
+  },
+  {
+    "Valor": 84,
+    "Nombre": "ochenta y cuatro"
+  },
+  {
+    "Valor": 85,
+    "Nombre": "ochenta y cinco"
+  },
+  {
+    "Valor": 86,
+    "Nombre": "ochenta y seis"
+  },
+  {
+    "Valor": 87,
+    "Nombre": "ochenta y siete"
+  },
+  {
+    "Valor": 88,
+    "Nombre": "ochenta y ocho"
+  },
+  {
+    "Valor": 89,
+    "Nombre": "ochenta y nueve"
+  },
+  {
+    "Valor": 90,
+    "Nombre": "noventa"
+  },
+  {
+    "Valor": 91,
+    "Nombre": "noventa y uno"
+  },
+  {
+    "Valor": 92,
+    "Nombre": "noventa y dos"
+  },
+  {
+    "Valor": 93,
+    "Nombre": "noventa y tres"
+  },
+  {
+    "Valor": 94,
+    "Nombre": "noventa y cuatro"
+  },
+  {
+    "Valor": 95,
+    "Nombre": "noventa y cinco"
+  },
+  {
+    "Valor": 96,
+    "Nombre": "noventa y seis"
+  },
+  {
+    "Valor": 97,
+    "Nombre": "noventa y siete"
+  },
+  {
+    "Valor": 98,
+    "Nombre": "noventa y ocho"
+  },
+  {
+    "Valor": 99,
+    "Nombre": "noventa y nueve"
+  },
+  {
+    "Valor": 100,
+    "Nombre": "cien"
+  },
+  {
+    "Valor": 101,
+    "Nombre": "ciento uno"
+  },
+  {
+    "Valor": 102,
+    "Nombre": "ciento dos"
+  },
+  {
+    "Valor": 103,
+    "Nombre": "ciento tres"
+  },
+  {
+    "Valor": 104,
+    "Nombre": "ciento cuatro"
+  },
+  {
+    "Valor": 105,
+    "Nombre": "ciento cinco"
+  },
+  {
+    "Valor": 106,
+    "Nombre": "ciento seis"
+  },
+  {
+    "Valor": 107,
+    "Nombre": "ciento siete"
+  },
+  {
+    "Valor": 108,
+    "Nombre": "ciento ocho"
+  },
+  {
+    "Valor": 109,
+    "Nombre": "ciento nueve"
+  },
+  {
+    "Valor": 110,
+    "Nombre": "ciento diez"
+  },
+  {
+    "Valor": 111,
+    "Nombre": "ciento once"
+  },
+  {
+    "Valor": 112,
+    "Nombre": "ciento doce"
+  },
+  {
+    "Valor": 113,
+    "Nombre": "ciento trece"
+  },
+  {
+    "Valor": 114,
+    "Nombre": "ciento catorce"
+  },
+  {
+    "Valor": 115,
+    "Nombre": "ciento quince"
+  },
+  {
+    "Valor": 116,
+    "Nombre": "ciento dieciséis"
+  },
+  {
+    "Valor": 117,
+    "Nombre": "ciento diecisiete"
+  },
+  {
+    "Valor": 118,
+    "Nombre": "ciento dieciocho"
+  },
+  {
+    "Valor": 119,
+    "Nombre": "ciento diecinueve"
+  },
+  {
+    "Valor": 120,
+    "Nombre": "ciento veinte"
+  },
+  {
+    "Valor": 121,
+    "Nombre": "ciento veintiuno"
+  },
+  {
+    "Valor": 122,
+    "Nombre": "ciento veintidós"
+  },
+  {
+    "Valor": 123,
+    "Nombre": "ciento veintitrés"
+  },
+  {
+    "Valor": 124,
+    "Nombre": "ciento veinticuatro"
+  },
+  {
+    "Valor": 125,
+    "Nombre": "ciento veinticinco"
+  },
+  {
+    "Valor": 126,
+    "Nombre": "ciento veintiséis"
+  },
+  {
+    "Valor": 127,
+    "Nombre": "ciento veintisiete"
+  },
+  {
+    "Valor": 128,
+    "Nombre": "ciento veintiocho"
+  },
+  {
+    "Valor": 129,
+    "Nombre": "ciento veintinueve"
+  },
+  {
+    "Valor": 130,
+    "Nombre": "ciento treinta"
+  },
+  {
+    "Valor": 131,
+    "Nombre": "ciento treinta y uno"
+  },
+  {
+    "Valor": 132,
+    "Nombre": "ciento treinta y dos"
+  },
+  {
+    "Valor": 133,
+    "Nombre": "ciento treinta y tres"
+  },
+  {
+    "Valor": 134,
+    "Nombre": "ciento treinta y cuatro"
+  },
+  {
+    "Valor": 135,
+    "Nombre": "ciento treinta y cinco"
+  },
+  {
+    "Valor": 136,
+    "Nombre": "ciento treinta y seis"
+  },
+  {
+    "Valor": 137,
+    "Nombre": "ciento treinta y siete"
+  },
+  {
+    "Valor": 138,
+    "Nombre": "ciento treinta y ocho"
+  },
+  {
+    "Valor": 139,
+    "Nombre": "ciento treinta y nueve"
+  },
+  {
+    "Valor": 140,
+    "Nombre": "ciento cuarenta"
+  },
+  {
+    "Valor": 141,
+    "Nombre": "ciento cuarenta y uno"
+  },
+  {
+    "Valor": 142,
+    "Nombre": "ciento cuarenta y dos"
+  },
+  {
+    "Valor": 143,
+    "Nombre": "ciento cuarenta y tres"
+  },
+  {
+    "Valor": 144,
+    "Nombre": "ciento cuarenta y cuatro"
+  },
+  {
+    "Valor": 145,
+    "Nombre": "ciento cuarenta y cinco"
+  },
+  {
+    "Valor": 146,
+    "Nombre": "ciento cuarenta y seis"
+  },
+  {
+    "Valor": 147,
+    "Nombre": "ciento cuarenta y siete"
+  },
+  {
+    "Valor": 148,
+    "Nombre": "ciento cuarenta y ocho"
+  },
+  {
+    "Valor": 149,
+    "Nombre": "ciento cuarenta y nueve"
+  },
+  {
+    "Valor": 150,
+    "Nombre": "ciento cincuenta"
+  },
+  {
+    "Valor": 151,
+    "Nombre": "ciento cincuenta y uno"
+  },
+  {
+    "Valor": 152,
+    "Nombre": "ciento cincuenta y dos"
+  },
+  {
+    "Valor": 153,
+    "Nombre": "ciento cincuenta y tres"
+  },
+  {
+    "Valor": 154,
+    "Nombre": "ciento cincuenta y cuatro"
+  },
+  {
+    "Valor": 155,
+    "Nombre": "ciento cincuenta y cinco"
+  },
+  {
+    "Valor": 156,
+    "Nombre": "ciento cincuenta y seis"
+  },
+  {
+    "Valor": 157,
+    "Nombre": "ciento cincuenta y siete"
+  },
+  {
+    "Valor": 158,
+    "Nombre": "ciento cincuenta y ocho"
+  },
+  {
+    "Valor": 159,
+    "Nombre": "ciento cincuenta y nueve"
+  },
+  {
+    "Valor": 160,
+    "Nombre": "ciento sesenta"
+  },
+  {
+    "Valor": 161,
+    "Nombre": "ciento sesenta y uno"
+  },
+  {
+    "Valor": 162,
+    "Nombre": "ciento sesenta y dos"
+  },
+  {
+    "Valor": 163,
+    "Nombre": "ciento sesenta y tres"
+  },
+  {
+    "Valor": 164,
+    "Nombre": "ciento sesenta y cuatro"
+  },
+  {
+    "Valor": 165,
+    "Nombre": "ciento sesenta y cinco"
+  },
+  {
+    "Valor": 166,
+    "Nombre": "ciento sesenta y seis"
+  },
+  {
+    "Valor": 167,
+    "Nombre": "ciento sesenta y siete"
+  },
+  {
+    "Valor": 168,
+    "Nombre": "ciento sesenta y ocho"
+  },
+  {
+    "Valor": 169,
+    "Nombre": "ciento sesenta y nueve"
+  },
+  {
+    "Valor": 170,
+    "Nombre": "ciento setenta"
+  },
+  {
+    "Valor": 171,
+    "Nombre": "ciento setenta y uno"
+  },
+  {
+    "Valor": 172,
+    "Nombre": "ciento setenta y dos"
+  },
+  {
+    "Valor": 173,
+    "Nombre": "ciento setenta y tres"
+  },
+  {
+    "Valor": 174,
+    "Nombre": "ciento setenta y cuatro"
+  },
+  {
+    "Valor": 175,
+    "Nombre": "ciento setenta y cinco"
+  },
+  {
+    "Valor": 176,
+    "Nombre": "ciento setenta y seis"
+  },
+  {
+    "Valor": 177,
+    "Nombre": "ciento setenta y siete"
+  },
+  {
+    "Valor": 178,
+    "Nombre": "ciento setenta y ocho"
+  },
+  {
+    "Valor": 179,
+    "Nombre": "ciento setenta y nueve"
+  },
+  {
+    "Valor": 180,
+    "Nombre": "ciento ochenta"
+  },
+  {
+    "Valor": 181,
+    "Nombre": "ciento ochenta y uno"
+  },
+  {
+    "Valor": 182,
+    "Nombre": "ciento ochenta y dos"
+  },
+  {
+    "Valor": 183,
+    "Nombre": "ciento ochenta y tres"
+  },
+  {
+    "Valor": 184,
+    "Nombre": "ciento ochenta y cuatro"
+  },
+  {
+    "Valor": 185,
+    "Nombre": "ciento ochenta y cinco"
+  },
+  {
+    "Valor": 186,
+    "Nombre": "ciento ochenta y seis"
+  },
+  {
+    "Valor": 187,
+    "Nombre": "ciento ochenta y siete"
+  },
+  {
+    "Valor": 188,
+    "Nombre": "ciento ochenta y ocho"
+  },
+  {
+    "Valor": 189,
+    "Nombre": "ciento ochenta y nueve"
+  },
+  {
+    "Valor": 190,
+    "Nombre": "ciento noventa"
+  },
+  {
+    "Valor": 191,
+    "Nombre": "ciento noventa y uno"
+  },
+  {
+    "Valor": 192,
+    "Nombre": "ciento noventa y dos"
+  },
+  {
+    "Valor": 193,
+    "Nombre": "ciento noventa y tres"
+  },
+  {
+    "Valor": 194,
+    "Nombre": "ciento noventa y cuatro"
+  },
+  {
+    "Valor": 195,
+    "Nombre": "ciento noventa y cinco"
+  },
+  {
+    "Valor": 196,
+    "Nombre": "ciento noventa y seis"
+  },
+  {
+    "Valor": 197,
+    "Nombre": "ciento noventa y siete"
+  },
+  {
+    "Valor": 198,
+    "Nombre": "ciento noventa y ocho"
+  },
+  {
+    "Valor": 199,
+    "Nombre": "ciento noventa y nueve"
+  },
+  {
+    "Valor": 200,
+    "Nombre": "doscientos"
+  },
+  {
+    "Valor": 201,
+    "Nombre": "doscientos uno"
+  },
+  {
+    "Valor": 202,
+    "Nombre": "doscientos dos"
+  },
+  {
+    "Valor": 203,
+    "Nombre": "doscientos tres"
+  },
+  {
+    "Valor": 204,
+    "Nombre": "doscientos cuatro"
+  },
+  {
+    "Valor": 205,
+    "Nombre": "doscientos cinco"
+  },
+  {
+    "Valor": 206,
+    "Nombre": "doscientos seis"
+  },
+  {
+    "Valor": 207,
+    "Nombre": "doscientos siete"
+  },
+  {
+    "Valor": 208,
+    "Nombre": "doscientos ocho"
+  },
+  {
+    "Valor": 209,
+    "Nombre": "doscientos nueve"
+  },
+  {
+    "Valor": 210,
+    "Nombre": "doscientos diez"
+  },
+  {
+    "Valor": 211,
+    "Nombre": "doscientos once"
+  },
+  {
+    "Valor": 212,
+    "Nombre": "doscientos doce"
+  },
+  {
+    "Valor": 213,
+    "Nombre": "doscientos trece"
+  },
+  {
+    "Valor": 214,
+    "Nombre": "doscientos catorce"
+  },
+  {
+    "Valor": 215,
+    "Nombre": "doscientos quince"
+  },
+  {
+    "Valor": 216,
+    "Nombre": "doscientos dieciséis"
+  },
+  {
+    "Valor": 217,
+    "Nombre": "doscientos diecisiete"
+  },
+  {
+    "Valor": 218,
+    "Nombre": "doscientos dieciocho"
+  },
+  {
+    "Valor": 219,
+    "Nombre": "doscientos diecinueve"
+  },
+  {
+    "Valor": 220,
+    "Nombre": "doscientos veinte"
+  },
+  {
+    "Valor": 221,
+    "Nombre": "doscientos veintiuno"
+  },
+  {
+    "Valor": 222,
+    "Nombre": "doscientos veintidós"
+  },
+  {
+    "Valor": 223,
+    "Nombre": "doscientos veintitrés"
+  },
+  {
+    "Valor": 224,
+    "Nombre": "doscientos veinticuatro"
+  },
+  {
+    "Valor": 225,
+    "Nombre": "doscientos veinticinco"
+  },
+  {
+    "Valor": 226,
+    "Nombre": "doscientos veintiséis"
+  },
+  {
+    "Valor": 227,
+    "Nombre": "doscientos veintisiete"
+  },
+  {
+    "Valor": 228,
+    "Nombre": "doscientos veintiocho"
+  },
+  {
+    "Valor": 229,
+    "Nombre": "doscientos veintinueve"
+  },
+  {
+    "Valor": 230,
+    "Nombre": "doscientos treinta"
+  },
+  {
+    "Valor": 231,
+    "Nombre": "doscientos treinta y uno"
+  },
+  {
+    "Valor": 232,
+    "Nombre": "doscientos treinta y dos"
+  },
+  {
+    "Valor": 233,
+    "Nombre": "doscientos treinta y tres"
+  },
+  {
+    "Valor": 234,
+    "Nombre": "doscientos treinta y cuatro"
+  },
+  {
+    "Valor": 235,
+    "Nombre": "doscientos treinta y cinco"
+  },
+  {
+    "Valor": 236,
+    "Nombre": "doscientos treinta y seis"
+  },
+  {
+    "Valor": 237,
+    "Nombre": "doscientos treinta y siete"
+  },
+  {
+    "Valor": 238,
+    "Nombre": "doscientos treinta y ocho"
+  },
+  {
+    "Valor": 239,
+    "Nombre": "doscientos treinta y nueve"
+  },
+  {
+    "Valor": 240,
+    "Nombre": "doscientos cuarenta"
+  },
+  {
+    "Valor": 241,
+    "Nombre": "doscientos cuarenta y uno"
+  },
+  {
+    "Valor": 242,
+    "Nombre": "doscientos cuarenta y dos"
+  },
+  {
+    "Valor": 243,
+    "Nombre": "doscientos cuarenta y tres"
+  },
+  {
+    "Valor": 244,
+    "Nombre": "doscientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 245,
+    "Nombre": "doscientos cuarenta y cinco"
+  },
+  {
+    "Valor": 246,
+    "Nombre": "doscientos cuarenta y seis"
+  },
+  {
+    "Valor": 247,
+    "Nombre": "doscientos cuarenta y siete"
+  },
+  {
+    "Valor": 248,
+    "Nombre": "doscientos cuarenta y ocho"
+  },
+  {
+    "Valor": 249,
+    "Nombre": "doscientos cuarenta y nueve"
+  },
+  {
+    "Valor": 250,
+    "Nombre": "doscientos cincuenta"
+  },
+  {
+    "Valor": 251,
+    "Nombre": "doscientos cincuenta y uno"
+  },
+  {
+    "Valor": 252,
+    "Nombre": "doscientos cincuenta y dos"
+  },
+  {
+    "Valor": 253,
+    "Nombre": "doscientos cincuenta y tres"
+  },
+  {
+    "Valor": 254,
+    "Nombre": "doscientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 255,
+    "Nombre": "doscientos cincuenta y cinco"
+  },
+  {
+    "Valor": 256,
+    "Nombre": "doscientos cincuenta y seis"
+  },
+  {
+    "Valor": 257,
+    "Nombre": "doscientos cincuenta y siete"
+  },
+  {
+    "Valor": 258,
+    "Nombre": "doscientos cincuenta y ocho"
+  },
+  {
+    "Valor": 259,
+    "Nombre": "doscientos cincuenta y nueve"
+  },
+  {
+    "Valor": 260,
+    "Nombre": "doscientos sesenta"
+  },
+  {
+    "Valor": 261,
+    "Nombre": "doscientos sesenta y uno"
+  },
+  {
+    "Valor": 262,
+    "Nombre": "doscientos sesenta y dos"
+  },
+  {
+    "Valor": 263,
+    "Nombre": "doscientos sesenta y tres"
+  },
+  {
+    "Valor": 264,
+    "Nombre": "doscientos sesenta y cuatro"
+  },
+  {
+    "Valor": 265,
+    "Nombre": "doscientos sesenta y cinco"
+  },
+  {
+    "Valor": 266,
+    "Nombre": "doscientos sesenta y seis"
+  },
+  {
+    "Valor": 267,
+    "Nombre": "doscientos sesenta y siete"
+  },
+  {
+    "Valor": 268,
+    "Nombre": "doscientos sesenta y ocho"
+  },
+  {
+    "Valor": 269,
+    "Nombre": "doscientos sesenta y nueve"
+  },
+  {
+    "Valor": 270,
+    "Nombre": "doscientos setenta"
+  },
+  {
+    "Valor": 271,
+    "Nombre": "doscientos setenta y uno"
+  },
+  {
+    "Valor": 272,
+    "Nombre": "doscientos setenta y dos"
+  },
+  {
+    "Valor": 273,
+    "Nombre": "doscientos setenta y tres"
+  },
+  {
+    "Valor": 274,
+    "Nombre": "doscientos setenta y cuatro"
+  },
+  {
+    "Valor": 275,
+    "Nombre": "doscientos setenta y cinco"
+  },
+  {
+    "Valor": 276,
+    "Nombre": "doscientos setenta y seis"
+  },
+  {
+    "Valor": 277,
+    "Nombre": "doscientos setenta y siete"
+  },
+  {
+    "Valor": 278,
+    "Nombre": "doscientos setenta y ocho"
+  },
+  {
+    "Valor": 279,
+    "Nombre": "doscientos setenta y nueve"
+  },
+  {
+    "Valor": 280,
+    "Nombre": "doscientos ochenta"
+  },
+  {
+    "Valor": 281,
+    "Nombre": "doscientos ochenta y uno"
+  },
+  {
+    "Valor": 282,
+    "Nombre": "doscientos ochenta y dos"
+  },
+  {
+    "Valor": 283,
+    "Nombre": "doscientos ochenta y tres"
+  },
+  {
+    "Valor": 284,
+    "Nombre": "doscientos ochenta y cuatro"
+  },
+  {
+    "Valor": 285,
+    "Nombre": "doscientos ochenta y cinco"
+  },
+  {
+    "Valor": 286,
+    "Nombre": "doscientos ochenta y seis"
+  },
+  {
+    "Valor": 287,
+    "Nombre": "doscientos ochenta y siete"
+  },
+  {
+    "Valor": 288,
+    "Nombre": "doscientos ochenta y ocho"
+  },
+  {
+    "Valor": 289,
+    "Nombre": "doscientos ochenta y nueve"
+  },
+  {
+    "Valor": 290,
+    "Nombre": "doscientos noventa"
+  },
+  {
+    "Valor": 291,
+    "Nombre": "doscientos noventa y uno"
+  },
+  {
+    "Valor": 292,
+    "Nombre": "doscientos noventa y dos"
+  },
+  {
+    "Valor": 293,
+    "Nombre": "doscientos noventa y tres"
+  },
+  {
+    "Valor": 294,
+    "Nombre": "doscientos noventa y cuatro"
+  },
+  {
+    "Valor": 295,
+    "Nombre": "doscientos noventa y cinco"
+  },
+  {
+    "Valor": 296,
+    "Nombre": "doscientos noventa y seis"
+  },
+  {
+    "Valor": 297,
+    "Nombre": "doscientos noventa y siete"
+  },
+  {
+    "Valor": 298,
+    "Nombre": "doscientos noventa y ocho"
+  },
+  {
+    "Valor": 299,
+    "Nombre": "doscientos noventa y nueve"
+  },
+  {
+    "Valor": 300,
+    "Nombre": "trescientos"
+  },
+  {
+    "Valor": 301,
+    "Nombre": "trescientos uno"
+  },
+  {
+    "Valor": 302,
+    "Nombre": "trescientos dos"
+  },
+  {
+    "Valor": 303,
+    "Nombre": "trescientos tres"
+  },
+  {
+    "Valor": 304,
+    "Nombre": "trescientos cuatro"
+  },
+  {
+    "Valor": 305,
+    "Nombre": "trescientos cinco"
+  },
+  {
+    "Valor": 306,
+    "Nombre": "trescientos seis"
+  },
+  {
+    "Valor": 307,
+    "Nombre": "trescientos siete"
+  },
+  {
+    "Valor": 308,
+    "Nombre": "trescientos ocho"
+  },
+  {
+    "Valor": 309,
+    "Nombre": "trescientos nueve"
+  },
+  {
+    "Valor": 310,
+    "Nombre": "trescientos diez"
+  },
+  {
+    "Valor": 311,
+    "Nombre": "trescientos once"
+  },
+  {
+    "Valor": 312,
+    "Nombre": "trescientos doce"
+  },
+  {
+    "Valor": 313,
+    "Nombre": "trescientos trece"
+  },
+  {
+    "Valor": 314,
+    "Nombre": "trescientos catorce"
+  },
+  {
+    "Valor": 315,
+    "Nombre": "trescientos quince"
+  },
+  {
+    "Valor": 316,
+    "Nombre": "trescientos dieciséis"
+  },
+  {
+    "Valor": 317,
+    "Nombre": "trescientos diecisiete"
+  },
+  {
+    "Valor": 318,
+    "Nombre": "trescientos dieciocho"
+  },
+  {
+    "Valor": 319,
+    "Nombre": "trescientos diecinueve"
+  },
+  {
+    "Valor": 320,
+    "Nombre": "trescientos veinte"
+  },
+  {
+    "Valor": 321,
+    "Nombre": "trescientos veintiuno"
+  },
+  {
+    "Valor": 322,
+    "Nombre": "trescientos veintidós"
+  },
+  {
+    "Valor": 323,
+    "Nombre": "trescientos veintitrés"
+  },
+  {
+    "Valor": 324,
+    "Nombre": "trescientos veinticuatro"
+  },
+  {
+    "Valor": 325,
+    "Nombre": "trescientos veinticinco"
+  },
+  {
+    "Valor": 326,
+    "Nombre": "trescientos veintiséis"
+  },
+  {
+    "Valor": 327,
+    "Nombre": "trescientos veintisiete"
+  },
+  {
+    "Valor": 328,
+    "Nombre": "trescientos veintiocho"
+  },
+  {
+    "Valor": 329,
+    "Nombre": "trescientos veintinueve"
+  },
+  {
+    "Valor": 330,
+    "Nombre": "trescientos treinta"
+  },
+  {
+    "Valor": 331,
+    "Nombre": "trescientos treinta y uno"
+  },
+  {
+    "Valor": 332,
+    "Nombre": "trescientos treinta y dos"
+  },
+  {
+    "Valor": 333,
+    "Nombre": "trescientos treinta y tres"
+  },
+  {
+    "Valor": 334,
+    "Nombre": "trescientos treinta y cuatro"
+  },
+  {
+    "Valor": 335,
+    "Nombre": "trescientos treinta y cinco"
+  },
+  {
+    "Valor": 336,
+    "Nombre": "trescientos treinta y seis"
+  },
+  {
+    "Valor": 337,
+    "Nombre": "trescientos treinta y siete"
+  },
+  {
+    "Valor": 338,
+    "Nombre": "trescientos treinta y ocho"
+  },
+  {
+    "Valor": 339,
+    "Nombre": "trescientos treinta y nueve"
+  },
+  {
+    "Valor": 340,
+    "Nombre": "trescientos cuarenta"
+  },
+  {
+    "Valor": 341,
+    "Nombre": "trescientos cuarenta y uno"
+  },
+  {
+    "Valor": 342,
+    "Nombre": "trescientos cuarenta y dos"
+  },
+  {
+    "Valor": 343,
+    "Nombre": "trescientos cuarenta y tres"
+  },
+  {
+    "Valor": 344,
+    "Nombre": "trescientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 345,
+    "Nombre": "trescientos cuarenta y cinco"
+  },
+  {
+    "Valor": 346,
+    "Nombre": "trescientos cuarenta y seis"
+  },
+  {
+    "Valor": 347,
+    "Nombre": "trescientos cuarenta y siete"
+  },
+  {
+    "Valor": 348,
+    "Nombre": "trescientos cuarenta y ocho"
+  },
+  {
+    "Valor": 349,
+    "Nombre": "trescientos cuarenta y nueve"
+  },
+  {
+    "Valor": 350,
+    "Nombre": "trescientos cincuenta"
+  },
+  {
+    "Valor": 351,
+    "Nombre": "trescientos cincuenta y uno"
+  },
+  {
+    "Valor": 352,
+    "Nombre": "trescientos cincuenta y dos"
+  },
+  {
+    "Valor": 353,
+    "Nombre": "trescientos cincuenta y tres"
+  },
+  {
+    "Valor": 354,
+    "Nombre": "trescientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 355,
+    "Nombre": "trescientos cincuenta y cinco"
+  },
+  {
+    "Valor": 356,
+    "Nombre": "trescientos cincuenta y seis"
+  },
+  {
+    "Valor": 357,
+    "Nombre": "trescientos cincuenta y siete"
+  },
+  {
+    "Valor": 358,
+    "Nombre": "trescientos cincuenta y ocho"
+  },
+  {
+    "Valor": 359,
+    "Nombre": "trescientos cincuenta y nueve"
+  },
+  {
+    "Valor": 360,
+    "Nombre": "trescientos sesenta"
+  },
+  {
+    "Valor": 361,
+    "Nombre": "trescientos sesenta y uno"
+  },
+  {
+    "Valor": 362,
+    "Nombre": "trescientos sesenta y dos"
+  },
+  {
+    "Valor": 363,
+    "Nombre": "trescientos sesenta y tres"
+  },
+  {
+    "Valor": 364,
+    "Nombre": "trescientos sesenta y cuatro"
+  },
+  {
+    "Valor": 365,
+    "Nombre": "trescientos sesenta y cinco"
+  },
+  {
+    "Valor": 366,
+    "Nombre": "trescientos sesenta y seis"
+  },
+  {
+    "Valor": 367,
+    "Nombre": "trescientos sesenta y siete"
+  },
+  {
+    "Valor": 368,
+    "Nombre": "trescientos sesenta y ocho"
+  },
+  {
+    "Valor": 369,
+    "Nombre": "trescientos sesenta y nueve"
+  },
+  {
+    "Valor": 370,
+    "Nombre": "trescientos setenta"
+  },
+  {
+    "Valor": 371,
+    "Nombre": "trescientos setenta y uno"
+  },
+  {
+    "Valor": 372,
+    "Nombre": "trescientos setenta y dos"
+  },
+  {
+    "Valor": 373,
+    "Nombre": "trescientos setenta y tres"
+  },
+  {
+    "Valor": 374,
+    "Nombre": "trescientos setenta y cuatro"
+  },
+  {
+    "Valor": 375,
+    "Nombre": "trescientos setenta y cinco"
+  },
+  {
+    "Valor": 376,
+    "Nombre": "trescientos setenta y seis"
+  },
+  {
+    "Valor": 377,
+    "Nombre": "trescientos setenta y siete"
+  },
+  {
+    "Valor": 378,
+    "Nombre": "trescientos setenta y ocho"
+  },
+  {
+    "Valor": 379,
+    "Nombre": "trescientos setenta y nueve"
+  },
+  {
+    "Valor": 380,
+    "Nombre": "trescientos ochenta"
+  },
+  {
+    "Valor": 381,
+    "Nombre": "trescientos ochenta y uno"
+  },
+  {
+    "Valor": 382,
+    "Nombre": "trescientos ochenta y dos"
+  },
+  {
+    "Valor": 383,
+    "Nombre": "trescientos ochenta y tres"
+  },
+  {
+    "Valor": 384,
+    "Nombre": "trescientos ochenta y cuatro"
+  },
+  {
+    "Valor": 385,
+    "Nombre": "trescientos ochenta y cinco"
+  },
+  {
+    "Valor": 386,
+    "Nombre": "trescientos ochenta y seis"
+  },
+  {
+    "Valor": 387,
+    "Nombre": "trescientos ochenta y siete"
+  },
+  {
+    "Valor": 388,
+    "Nombre": "trescientos ochenta y ocho"
+  },
+  {
+    "Valor": 389,
+    "Nombre": "trescientos ochenta y nueve"
+  },
+  {
+    "Valor": 390,
+    "Nombre": "trescientos noventa"
+  },
+  {
+    "Valor": 391,
+    "Nombre": "trescientos noventa y uno"
+  },
+  {
+    "Valor": 392,
+    "Nombre": "trescientos noventa y dos"
+  },
+  {
+    "Valor": 393,
+    "Nombre": "trescientos noventa y tres"
+  },
+  {
+    "Valor": 394,
+    "Nombre": "trescientos noventa y cuatro"
+  },
+  {
+    "Valor": 395,
+    "Nombre": "trescientos noventa y cinco"
+  },
+  {
+    "Valor": 396,
+    "Nombre": "trescientos noventa y seis"
+  },
+  {
+    "Valor": 397,
+    "Nombre": "trescientos noventa y siete"
+  },
+  {
+    "Valor": 398,
+    "Nombre": "trescientos noventa y ocho"
+  },
+  {
+    "Valor": 399,
+    "Nombre": "trescientos noventa y nueve"
+  },
+  {
+    "Valor": 400,
+    "Nombre": "cuatrocientos"
+  },
+  {
+    "Valor": 401,
+    "Nombre": "cuatrocientos uno"
+  },
+  {
+    "Valor": 402,
+    "Nombre": "cuatrocientos dos"
+  },
+  {
+    "Valor": 403,
+    "Nombre": "cuatrocientos tres"
+  },
+  {
+    "Valor": 404,
+    "Nombre": "cuatrocientos cuatro"
+  },
+  {
+    "Valor": 405,
+    "Nombre": "cuatrocientos cinco"
+  },
+  {
+    "Valor": 406,
+    "Nombre": "cuatrocientos seis"
+  },
+  {
+    "Valor": 407,
+    "Nombre": "cuatrocientos siete"
+  },
+  {
+    "Valor": 408,
+    "Nombre": "cuatrocientos ocho"
+  },
+  {
+    "Valor": 409,
+    "Nombre": "cuatrocientos nueve"
+  },
+  {
+    "Valor": 410,
+    "Nombre": "cuatrocientos diez"
+  },
+  {
+    "Valor": 411,
+    "Nombre": "cuatrocientos once"
+  },
+  {
+    "Valor": 412,
+    "Nombre": "cuatrocientos doce"
+  },
+  {
+    "Valor": 413,
+    "Nombre": "cuatrocientos trece"
+  },
+  {
+    "Valor": 414,
+    "Nombre": "cuatrocientos catorce"
+  },
+  {
+    "Valor": 415,
+    "Nombre": "cuatrocientos quince"
+  },
+  {
+    "Valor": 416,
+    "Nombre": "cuatrocientos dieciséis"
+  },
+  {
+    "Valor": 417,
+    "Nombre": "cuatrocientos diecisiete"
+  },
+  {
+    "Valor": 418,
+    "Nombre": "cuatrocientos dieciocho"
+  },
+  {
+    "Valor": 419,
+    "Nombre": "cuatrocientos diecinueve"
+  },
+  {
+    "Valor": 420,
+    "Nombre": "cuatrocientos veinte"
+  },
+  {
+    "Valor": 421,
+    "Nombre": "cuatrocientos veintiuno"
+  },
+  {
+    "Valor": 422,
+    "Nombre": "cuatrocientos veintidós"
+  },
+  {
+    "Valor": 423,
+    "Nombre": "cuatrocientos veintitrés"
+  },
+  {
+    "Valor": 424,
+    "Nombre": "cuatrocientos veinticuatro"
+  },
+  {
+    "Valor": 425,
+    "Nombre": "cuatrocientos veinticinco"
+  },
+  {
+    "Valor": 426,
+    "Nombre": "cuatrocientos veintiséis"
+  },
+  {
+    "Valor": 427,
+    "Nombre": "cuatrocientos veintisiete"
+  },
+  {
+    "Valor": 428,
+    "Nombre": "cuatrocientos veintiocho"
+  },
+  {
+    "Valor": 429,
+    "Nombre": "cuatrocientos veintinueve"
+  },
+  {
+    "Valor": 430,
+    "Nombre": "cuatrocientos treinta"
+  },
+  {
+    "Valor": 431,
+    "Nombre": "cuatrocientos treinta y uno"
+  },
+  {
+    "Valor": 432,
+    "Nombre": "cuatrocientos treinta y dos"
+  },
+  {
+    "Valor": 433,
+    "Nombre": "cuatrocientos treinta y tres"
+  },
+  {
+    "Valor": 434,
+    "Nombre": "cuatrocientos treinta y cuatro"
+  },
+  {
+    "Valor": 435,
+    "Nombre": "cuatrocientos treinta y cinco"
+  },
+  {
+    "Valor": 436,
+    "Nombre": "cuatrocientos treinta y seis"
+  },
+  {
+    "Valor": 437,
+    "Nombre": "cuatrocientos treinta y siete"
+  },
+  {
+    "Valor": 438,
+    "Nombre": "cuatrocientos treinta y ocho"
+  },
+  {
+    "Valor": 439,
+    "Nombre": "cuatrocientos treinta y nueve"
+  },
+  {
+    "Valor": 440,
+    "Nombre": "cuatrocientos cuarenta"
+  },
+  {
+    "Valor": 441,
+    "Nombre": "cuatrocientos cuarenta y uno"
+  },
+  {
+    "Valor": 442,
+    "Nombre": "cuatrocientos cuarenta y dos"
+  },
+  {
+    "Valor": 443,
+    "Nombre": "cuatrocientos cuarenta y tres"
+  },
+  {
+    "Valor": 444,
+    "Nombre": "cuatrocientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 445,
+    "Nombre": "cuatrocientos cuarenta y cinco"
+  },
+  {
+    "Valor": 446,
+    "Nombre": "cuatrocientos cuarenta y seis"
+  },
+  {
+    "Valor": 447,
+    "Nombre": "cuatrocientos cuarenta y siete"
+  },
+  {
+    "Valor": 448,
+    "Nombre": "cuatrocientos cuarenta y ocho"
+  },
+  {
+    "Valor": 449,
+    "Nombre": "cuatrocientos cuarenta y nueve"
+  },
+  {
+    "Valor": 450,
+    "Nombre": "cuatrocientos cincuenta"
+  },
+  {
+    "Valor": 451,
+    "Nombre": "cuatrocientos cincuenta y uno"
+  },
+  {
+    "Valor": 452,
+    "Nombre": "cuatrocientos cincuenta y dos"
+  },
+  {
+    "Valor": 453,
+    "Nombre": "cuatrocientos cincuenta y tres"
+  },
+  {
+    "Valor": 454,
+    "Nombre": "cuatrocientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 455,
+    "Nombre": "cuatrocientos cincuenta y cinco"
+  },
+  {
+    "Valor": 456,
+    "Nombre": "cuatrocientos cincuenta y seis"
+  },
+  {
+    "Valor": 457,
+    "Nombre": "cuatrocientos cincuenta y siete"
+  },
+  {
+    "Valor": 458,
+    "Nombre": "cuatrocientos cincuenta y ocho"
+  },
+  {
+    "Valor": 459,
+    "Nombre": "cuatrocientos cincuenta y nueve"
+  },
+  {
+    "Valor": 460,
+    "Nombre": "cuatrocientos sesenta"
+  },
+  {
+    "Valor": 461,
+    "Nombre": "cuatrocientos sesenta y uno"
+  },
+  {
+    "Valor": 462,
+    "Nombre": "cuatrocientos sesenta y dos"
+  },
+  {
+    "Valor": 463,
+    "Nombre": "cuatrocientos sesenta y tres"
+  },
+  {
+    "Valor": 464,
+    "Nombre": "cuatrocientos sesenta y cuatro"
+  },
+  {
+    "Valor": 465,
+    "Nombre": "cuatrocientos sesenta y cinco"
+  },
+  {
+    "Valor": 466,
+    "Nombre": "cuatrocientos sesenta y seis"
+  },
+  {
+    "Valor": 467,
+    "Nombre": "cuatrocientos sesenta y siete"
+  },
+  {
+    "Valor": 468,
+    "Nombre": "cuatrocientos sesenta y ocho"
+  },
+  {
+    "Valor": 469,
+    "Nombre": "cuatrocientos sesenta y nueve"
+  },
+  {
+    "Valor": 470,
+    "Nombre": "cuatrocientos setenta"
+  },
+  {
+    "Valor": 471,
+    "Nombre": "cuatrocientos setenta y uno"
+  },
+  {
+    "Valor": 472,
+    "Nombre": "cuatrocientos setenta y dos"
+  },
+  {
+    "Valor": 473,
+    "Nombre": "cuatrocientos setenta y tres"
+  },
+  {
+    "Valor": 474,
+    "Nombre": "cuatrocientos setenta y cuatro"
+  },
+  {
+    "Valor": 475,
+    "Nombre": "cuatrocientos setenta y cinco"
+  },
+  {
+    "Valor": 476,
+    "Nombre": "cuatrocientos setenta y seis"
+  },
+  {
+    "Valor": 477,
+    "Nombre": "cuatrocientos setenta y siete"
+  },
+  {
+    "Valor": 478,
+    "Nombre": "cuatrocientos setenta y ocho"
+  },
+  {
+    "Valor": 479,
+    "Nombre": "cuatrocientos setenta y nueve"
+  },
+  {
+    "Valor": 480,
+    "Nombre": "cuatrocientos ochenta"
+  },
+  {
+    "Valor": 481,
+    "Nombre": "cuatrocientos ochenta y uno"
+  },
+  {
+    "Valor": 482,
+    "Nombre": "cuatrocientos ochenta y dos"
+  },
+  {
+    "Valor": 483,
+    "Nombre": "cuatrocientos ochenta y tres"
+  },
+  {
+    "Valor": 484,
+    "Nombre": "cuatrocientos ochenta y cuatro"
+  },
+  {
+    "Valor": 485,
+    "Nombre": "cuatrocientos ochenta y cinco"
+  },
+  {
+    "Valor": 486,
+    "Nombre": "cuatrocientos ochenta y seis"
+  },
+  {
+    "Valor": 487,
+    "Nombre": "cuatrocientos ochenta y siete"
+  },
+  {
+    "Valor": 488,
+    "Nombre": "cuatrocientos ochenta y ocho"
+  },
+  {
+    "Valor": 489,
+    "Nombre": "cuatrocientos ochenta y nueve"
+  },
+  {
+    "Valor": 490,
+    "Nombre": "cuatrocientos noventa"
+  },
+  {
+    "Valor": 491,
+    "Nombre": "cuatrocientos noventa y uno"
+  },
+  {
+    "Valor": 492,
+    "Nombre": "cuatrocientos noventa y dos"
+  },
+  {
+    "Valor": 493,
+    "Nombre": "cuatrocientos noventa y tres"
+  },
+  {
+    "Valor": 494,
+    "Nombre": "cuatrocientos noventa y cuatro"
+  },
+  {
+    "Valor": 495,
+    "Nombre": "cuatrocientos noventa y cinco"
+  },
+  {
+    "Valor": 496,
+    "Nombre": "cuatrocientos noventa y seis"
+  },
+  {
+    "Valor": 497,
+    "Nombre": "cuatrocientos noventa y siete"
+  },
+  {
+    "Valor": 498,
+    "Nombre": "cuatrocientos noventa y ocho"
+  },
+  {
+    "Valor": 499,
+    "Nombre": "cuatrocientos noventa y nueve"
+  },
+  {
+    "Valor": 500,
+    "Nombre": "quinientos"
+  },
+  {
+    "Valor": 501,
+    "Nombre": "quinientos uno"
+  },
+  {
+    "Valor": 502,
+    "Nombre": "quinientos dos"
+  },
+  {
+    "Valor": 503,
+    "Nombre": "quinientos tres"
+  },
+  {
+    "Valor": 504,
+    "Nombre": "quinientos cuatro"
+  },
+  {
+    "Valor": 505,
+    "Nombre": "quinientos cinco"
+  },
+  {
+    "Valor": 506,
+    "Nombre": "quinientos seis"
+  },
+  {
+    "Valor": 507,
+    "Nombre": "quinientos siete"
+  },
+  {
+    "Valor": 508,
+    "Nombre": "quinientos ocho"
+  },
+  {
+    "Valor": 509,
+    "Nombre": "quinientos nueve"
+  },
+  {
+    "Valor": 510,
+    "Nombre": "quinientos diez"
+  },
+  {
+    "Valor": 511,
+    "Nombre": "quinientos once"
+  },
+  {
+    "Valor": 512,
+    "Nombre": "quinientos doce"
+  },
+  {
+    "Valor": 513,
+    "Nombre": "quinientos trece"
+  },
+  {
+    "Valor": 514,
+    "Nombre": "quinientos catorce"
+  },
+  {
+    "Valor": 515,
+    "Nombre": "quinientos quince"
+  },
+  {
+    "Valor": 516,
+    "Nombre": "quinientos dieciséis"
+  },
+  {
+    "Valor": 517,
+    "Nombre": "quinientos diecisiete"
+  },
+  {
+    "Valor": 518,
+    "Nombre": "quinientos dieciocho"
+  },
+  {
+    "Valor": 519,
+    "Nombre": "quinientos diecinueve"
+  },
+  {
+    "Valor": 520,
+    "Nombre": "quinientos veinte"
+  },
+  {
+    "Valor": 521,
+    "Nombre": "quinientos veintiuno"
+  },
+  {
+    "Valor": 522,
+    "Nombre": "quinientos veintidós"
+  },
+  {
+    "Valor": 523,
+    "Nombre": "quinientos veintitrés"
+  },
+  {
+    "Valor": 524,
+    "Nombre": "quinientos veinticuatro"
+  },
+  {
+    "Valor": 525,
+    "Nombre": "quinientos veinticinco"
+  },
+  {
+    "Valor": 526,
+    "Nombre": "quinientos veintiséis"
+  },
+  {
+    "Valor": 527,
+    "Nombre": "quinientos veintisiete"
+  },
+  {
+    "Valor": 528,
+    "Nombre": "quinientos veintiocho"
+  },
+  {
+    "Valor": 529,
+    "Nombre": "quinientos veintinueve"
+  },
+  {
+    "Valor": 530,
+    "Nombre": "quinientos treinta"
+  },
+  {
+    "Valor": 531,
+    "Nombre": "quinientos treinta y uno"
+  },
+  {
+    "Valor": 532,
+    "Nombre": "quinientos treinta y dos"
+  },
+  {
+    "Valor": 533,
+    "Nombre": "quinientos treinta y tres"
+  },
+  {
+    "Valor": 534,
+    "Nombre": "quinientos treinta y cuatro"
+  },
+  {
+    "Valor": 535,
+    "Nombre": "quinientos treinta y cinco"
+  },
+  {
+    "Valor": 536,
+    "Nombre": "quinientos treinta y seis"
+  },
+  {
+    "Valor": 537,
+    "Nombre": "quinientos treinta y siete"
+  },
+  {
+    "Valor": 538,
+    "Nombre": "quinientos treinta y ocho"
+  },
+  {
+    "Valor": 539,
+    "Nombre": "quinientos treinta y nueve"
+  },
+  {
+    "Valor": 540,
+    "Nombre": "quinientos cuarenta"
+  },
+  {
+    "Valor": 541,
+    "Nombre": "quinientos cuarenta y uno"
+  },
+  {
+    "Valor": 542,
+    "Nombre": "quinientos cuarenta y dos"
+  },
+  {
+    "Valor": 543,
+    "Nombre": "quinientos cuarenta y tres"
+  },
+  {
+    "Valor": 544,
+    "Nombre": "quinientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 545,
+    "Nombre": "quinientos cuarenta y cinco"
+  },
+  {
+    "Valor": 546,
+    "Nombre": "quinientos cuarenta y seis"
+  },
+  {
+    "Valor": 547,
+    "Nombre": "quinientos cuarenta y siete"
+  },
+  {
+    "Valor": 548,
+    "Nombre": "quinientos cuarenta y ocho"
+  },
+  {
+    "Valor": 549,
+    "Nombre": "quinientos cuarenta y nueve"
+  },
+  {
+    "Valor": 550,
+    "Nombre": "quinientos cincuenta"
+  },
+  {
+    "Valor": 551,
+    "Nombre": "quinientos cincuenta y uno"
+  },
+  {
+    "Valor": 552,
+    "Nombre": "quinientos cincuenta y dos"
+  },
+  {
+    "Valor": 553,
+    "Nombre": "quinientos cincuenta y tres"
+  },
+  {
+    "Valor": 554,
+    "Nombre": "quinientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 555,
+    "Nombre": "quinientos cincuenta y cinco"
+  },
+  {
+    "Valor": 556,
+    "Nombre": "quinientos cincuenta y seis"
+  },
+  {
+    "Valor": 557,
+    "Nombre": "quinientos cincuenta y siete"
+  },
+  {
+    "Valor": 558,
+    "Nombre": "quinientos cincuenta y ocho"
+  },
+  {
+    "Valor": 559,
+    "Nombre": "quinientos cincuenta y nueve"
+  },
+  {
+    "Valor": 560,
+    "Nombre": "quinientos sesenta"
+  },
+  {
+    "Valor": 561,
+    "Nombre": "quinientos sesenta y uno"
+  },
+  {
+    "Valor": 562,
+    "Nombre": "quinientos sesenta y dos"
+  },
+  {
+    "Valor": 563,
+    "Nombre": "quinientos sesenta y tres"
+  },
+  {
+    "Valor": 564,
+    "Nombre": "quinientos sesenta y cuatro"
+  },
+  {
+    "Valor": 565,
+    "Nombre": "quinientos sesenta y cinco"
+  },
+  {
+    "Valor": 566,
+    "Nombre": "quinientos sesenta y seis"
+  },
+  {
+    "Valor": 567,
+    "Nombre": "quinientos sesenta y siete"
+  },
+  {
+    "Valor": 568,
+    "Nombre": "quinientos sesenta y ocho"
+  },
+  {
+    "Valor": 569,
+    "Nombre": "quinientos sesenta y nueve"
+  },
+  {
+    "Valor": 570,
+    "Nombre": "quinientos setenta"
+  },
+  {
+    "Valor": 571,
+    "Nombre": "quinientos setenta y uno"
+  },
+  {
+    "Valor": 572,
+    "Nombre": "quinientos setenta y dos"
+  },
+  {
+    "Valor": 573,
+    "Nombre": "quinientos setenta y tres"
+  },
+  {
+    "Valor": 574,
+    "Nombre": "quinientos setenta y cuatro"
+  },
+  {
+    "Valor": 575,
+    "Nombre": "quinientos setenta y cinco"
+  },
+  {
+    "Valor": 576,
+    "Nombre": "quinientos setenta y seis"
+  },
+  {
+    "Valor": 577,
+    "Nombre": "quinientos setenta y siete"
+  },
+  {
+    "Valor": 578,
+    "Nombre": "quinientos setenta y ocho"
+  },
+  {
+    "Valor": 579,
+    "Nombre": "quinientos setenta y nueve"
+  },
+  {
+    "Valor": 580,
+    "Nombre": "quinientos ochenta"
+  },
+  {
+    "Valor": 581,
+    "Nombre": "quinientos ochenta y uno"
+  },
+  {
+    "Valor": 582,
+    "Nombre": "quinientos ochenta y dos"
+  },
+  {
+    "Valor": 583,
+    "Nombre": "quinientos ochenta y tres"
+  },
+  {
+    "Valor": 584,
+    "Nombre": "quinientos ochenta y cuatro"
+  },
+  {
+    "Valor": 585,
+    "Nombre": "quinientos ochenta y cinco"
+  },
+  {
+    "Valor": 586,
+    "Nombre": "quinientos ochenta y seis"
+  },
+  {
+    "Valor": 587,
+    "Nombre": "quinientos ochenta y siete"
+  },
+  {
+    "Valor": 588,
+    "Nombre": "quinientos ochenta y ocho"
+  },
+  {
+    "Valor": 589,
+    "Nombre": "quinientos ochenta y nueve"
+  },
+  {
+    "Valor": 590,
+    "Nombre": "quinientos noventa"
+  },
+  {
+    "Valor": 591,
+    "Nombre": "quinientos noventa y uno"
+  },
+  {
+    "Valor": 592,
+    "Nombre": "quinientos noventa y dos"
+  },
+  {
+    "Valor": 593,
+    "Nombre": "quinientos noventa y tres"
+  },
+  {
+    "Valor": 594,
+    "Nombre": "quinientos noventa y cuatro"
+  },
+  {
+    "Valor": 595,
+    "Nombre": "quinientos noventa y cinco"
+  },
+  {
+    "Valor": 596,
+    "Nombre": "quinientos noventa y seis"
+  },
+  {
+    "Valor": 597,
+    "Nombre": "quinientos noventa y siete"
+  },
+  {
+    "Valor": 598,
+    "Nombre": "quinientos noventa y ocho"
+  },
+  {
+    "Valor": 599,
+    "Nombre": "quinientos noventa y nueve"
+  },
+  {
+    "Valor": 600,
+    "Nombre": "seiscientos"
+  },
+  {
+    "Valor": 601,
+    "Nombre": "seiscientos uno"
+  },
+  {
+    "Valor": 602,
+    "Nombre": "seiscientos dos"
+  },
+  {
+    "Valor": 603,
+    "Nombre": "seiscientos tres"
+  },
+  {
+    "Valor": 604,
+    "Nombre": "seiscientos cuatro"
+  },
+  {
+    "Valor": 605,
+    "Nombre": "seiscientos cinco"
+  },
+  {
+    "Valor": 606,
+    "Nombre": "seiscientos seis"
+  },
+  {
+    "Valor": 607,
+    "Nombre": "seiscientos siete"
+  },
+  {
+    "Valor": 608,
+    "Nombre": "seiscientos ocho"
+  },
+  {
+    "Valor": 609,
+    "Nombre": "seiscientos nueve"
+  },
+  {
+    "Valor": 610,
+    "Nombre": "seiscientos diez"
+  },
+  {
+    "Valor": 611,
+    "Nombre": "seiscientos once"
+  },
+  {
+    "Valor": 612,
+    "Nombre": "seiscientos doce"
+  },
+  {
+    "Valor": 613,
+    "Nombre": "seiscientos trece"
+  },
+  {
+    "Valor": 614,
+    "Nombre": "seiscientos catorce"
+  },
+  {
+    "Valor": 615,
+    "Nombre": "seiscientos quince"
+  },
+  {
+    "Valor": 616,
+    "Nombre": "seiscientos dieciséis"
+  },
+  {
+    "Valor": 617,
+    "Nombre": "seiscientos diecisiete"
+  },
+  {
+    "Valor": 618,
+    "Nombre": "seiscientos dieciocho"
+  },
+  {
+    "Valor": 619,
+    "Nombre": "seiscientos diecinueve"
+  },
+  {
+    "Valor": 620,
+    "Nombre": "seiscientos veinte"
+  },
+  {
+    "Valor": 621,
+    "Nombre": "seiscientos veintiuno"
+  },
+  {
+    "Valor": 622,
+    "Nombre": "seiscientos veintidós"
+  },
+  {
+    "Valor": 623,
+    "Nombre": "seiscientos veintitrés"
+  },
+  {
+    "Valor": 624,
+    "Nombre": "seiscientos veinticuatro"
+  },
+  {
+    "Valor": 625,
+    "Nombre": "seiscientos veinticinco"
+  },
+  {
+    "Valor": 626,
+    "Nombre": "seiscientos veintiséis"
+  },
+  {
+    "Valor": 627,
+    "Nombre": "seiscientos veintisiete"
+  },
+  {
+    "Valor": 628,
+    "Nombre": "seiscientos veintiocho"
+  },
+  {
+    "Valor": 629,
+    "Nombre": "seiscientos veintinueve"
+  },
+  {
+    "Valor": 630,
+    "Nombre": "seiscientos treinta"
+  },
+  {
+    "Valor": 631,
+    "Nombre": "seiscientos treinta y uno"
+  },
+  {
+    "Valor": 632,
+    "Nombre": "seiscientos treinta y dos"
+  },
+  {
+    "Valor": 633,
+    "Nombre": "seiscientos treinta y tres"
+  },
+  {
+    "Valor": 634,
+    "Nombre": "seiscientos treinta y cuatro"
+  },
+  {
+    "Valor": 635,
+    "Nombre": "seiscientos treinta y cinco"
+  },
+  {
+    "Valor": 636,
+    "Nombre": "seiscientos treinta y seis"
+  },
+  {
+    "Valor": 637,
+    "Nombre": "seiscientos treinta y siete"
+  },
+  {
+    "Valor": 638,
+    "Nombre": "seiscientos treinta y ocho"
+  },
+  {
+    "Valor": 639,
+    "Nombre": "seiscientos treinta y nueve"
+  },
+  {
+    "Valor": 640,
+    "Nombre": "seiscientos cuarenta"
+  },
+  {
+    "Valor": 641,
+    "Nombre": "seiscientos cuarenta y uno"
+  },
+  {
+    "Valor": 642,
+    "Nombre": "seiscientos cuarenta y dos"
+  },
+  {
+    "Valor": 643,
+    "Nombre": "seiscientos cuarenta y tres"
+  },
+  {
+    "Valor": 644,
+    "Nombre": "seiscientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 645,
+    "Nombre": "seiscientos cuarenta y cinco"
+  },
+  {
+    "Valor": 646,
+    "Nombre": "seiscientos cuarenta y seis"
+  },
+  {
+    "Valor": 647,
+    "Nombre": "seiscientos cuarenta y siete"
+  },
+  {
+    "Valor": 648,
+    "Nombre": "seiscientos cuarenta y ocho"
+  },
+  {
+    "Valor": 649,
+    "Nombre": "seiscientos cuarenta y nueve"
+  },
+  {
+    "Valor": 650,
+    "Nombre": "seiscientos cincuenta"
+  },
+  {
+    "Valor": 651,
+    "Nombre": "seiscientos cincuenta y uno"
+  },
+  {
+    "Valor": 652,
+    "Nombre": "seiscientos cincuenta y dos"
+  },
+  {
+    "Valor": 653,
+    "Nombre": "seiscientos cincuenta y tres"
+  },
+  {
+    "Valor": 654,
+    "Nombre": "seiscientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 655,
+    "Nombre": "seiscientos cincuenta y cinco"
+  },
+  {
+    "Valor": 656,
+    "Nombre": "seiscientos cincuenta y seis"
+  },
+  {
+    "Valor": 657,
+    "Nombre": "seiscientos cincuenta y siete"
+  },
+  {
+    "Valor": 658,
+    "Nombre": "seiscientos cincuenta y ocho"
+  },
+  {
+    "Valor": 659,
+    "Nombre": "seiscientos cincuenta y nueve"
+  },
+  {
+    "Valor": 660,
+    "Nombre": "seiscientos sesenta"
+  },
+  {
+    "Valor": 661,
+    "Nombre": "seiscientos sesenta y uno"
+  },
+  {
+    "Valor": 662,
+    "Nombre": "seiscientos sesenta y dos"
+  },
+  {
+    "Valor": 663,
+    "Nombre": "seiscientos sesenta y tres"
+  },
+  {
+    "Valor": 664,
+    "Nombre": "seiscientos sesenta y cuatro"
+  },
+  {
+    "Valor": 665,
+    "Nombre": "seiscientos sesenta y cinco"
+  },
+  {
+    "Valor": 666,
+    "Nombre": "seiscientos sesenta y seis"
+  },
+  {
+    "Valor": 667,
+    "Nombre": "seiscientos sesenta y siete"
+  },
+  {
+    "Valor": 668,
+    "Nombre": "seiscientos sesenta y ocho"
+  },
+  {
+    "Valor": 669,
+    "Nombre": "seiscientos sesenta y nueve"
+  },
+  {
+    "Valor": 670,
+    "Nombre": "seiscientos setenta"
+  },
+  {
+    "Valor": 671,
+    "Nombre": "seiscientos setenta y uno"
+  },
+  {
+    "Valor": 672,
+    "Nombre": "seiscientos setenta y dos"
+  },
+  {
+    "Valor": 673,
+    "Nombre": "seiscientos setenta y tres"
+  },
+  {
+    "Valor": 674,
+    "Nombre": "seiscientos setenta y cuatro"
+  },
+  {
+    "Valor": 675,
+    "Nombre": "seiscientos setenta y cinco"
+  },
+  {
+    "Valor": 676,
+    "Nombre": "seiscientos setenta y seis"
+  },
+  {
+    "Valor": 677,
+    "Nombre": "seiscientos setenta y siete"
+  },
+  {
+    "Valor": 678,
+    "Nombre": "seiscientos setenta y ocho"
+  },
+  {
+    "Valor": 679,
+    "Nombre": "seiscientos setenta y nueve"
+  },
+  {
+    "Valor": 680,
+    "Nombre": "seiscientos ochenta"
+  },
+  {
+    "Valor": 681,
+    "Nombre": "seiscientos ochenta y uno"
+  },
+  {
+    "Valor": 682,
+    "Nombre": "seiscientos ochenta y dos"
+  },
+  {
+    "Valor": 683,
+    "Nombre": "seiscientos ochenta y tres"
+  },
+  {
+    "Valor": 684,
+    "Nombre": "seiscientos ochenta y cuatro"
+  },
+  {
+    "Valor": 685,
+    "Nombre": "seiscientos ochenta y cinco"
+  },
+  {
+    "Valor": 686,
+    "Nombre": "seiscientos ochenta y seis"
+  },
+  {
+    "Valor": 687,
+    "Nombre": "seiscientos ochenta y siete"
+  },
+  {
+    "Valor": 688,
+    "Nombre": "seiscientos ochenta y ocho"
+  },
+  {
+    "Valor": 689,
+    "Nombre": "seiscientos ochenta y nueve"
+  },
+  {
+    "Valor": 690,
+    "Nombre": "seiscientos noventa"
+  },
+  {
+    "Valor": 691,
+    "Nombre": "seiscientos noventa y uno"
+  },
+  {
+    "Valor": 692,
+    "Nombre": "seiscientos noventa y dos"
+  },
+  {
+    "Valor": 693,
+    "Nombre": "seiscientos noventa y tres"
+  },
+  {
+    "Valor": 694,
+    "Nombre": "seiscientos noventa y cuatro"
+  },
+  {
+    "Valor": 695,
+    "Nombre": "seiscientos noventa y cinco"
+  },
+  {
+    "Valor": 696,
+    "Nombre": "seiscientos noventa y seis"
+  },
+  {
+    "Valor": 697,
+    "Nombre": "seiscientos noventa y siete"
+  },
+  {
+    "Valor": 698,
+    "Nombre": "seiscientos noventa y ocho"
+  },
+  {
+    "Valor": 699,
+    "Nombre": "seiscientos noventa y nueve"
+  },
+  {
+    "Valor": 700,
+    "Nombre": "setecientos"
+  },
+  {
+    "Valor": 701,
+    "Nombre": "setecientos uno"
+  },
+  {
+    "Valor": 702,
+    "Nombre": "setecientos dos"
+  },
+  {
+    "Valor": 703,
+    "Nombre": "setecientos tres"
+  },
+  {
+    "Valor": 704,
+    "Nombre": "setecientos cuatro"
+  },
+  {
+    "Valor": 705,
+    "Nombre": "setecientos cinco"
+  },
+  {
+    "Valor": 706,
+    "Nombre": "setecientos seis"
+  },
+  {
+    "Valor": 707,
+    "Nombre": "setecientos siete"
+  },
+  {
+    "Valor": 708,
+    "Nombre": "setecientos ocho"
+  },
+  {
+    "Valor": 709,
+    "Nombre": "setecientos nueve"
+  },
+  {
+    "Valor": 710,
+    "Nombre": "setecientos diez"
+  },
+  {
+    "Valor": 711,
+    "Nombre": "setecientos once"
+  },
+  {
+    "Valor": 712,
+    "Nombre": "setecientos doce"
+  },
+  {
+    "Valor": 713,
+    "Nombre": "setecientos trece"
+  },
+  {
+    "Valor": 714,
+    "Nombre": "setecientos catorce"
+  },
+  {
+    "Valor": 715,
+    "Nombre": "setecientos quince"
+  },
+  {
+    "Valor": 716,
+    "Nombre": "setecientos dieciséis"
+  },
+  {
+    "Valor": 717,
+    "Nombre": "setecientos diecisiete"
+  },
+  {
+    "Valor": 718,
+    "Nombre": "setecientos dieciocho"
+  },
+  {
+    "Valor": 719,
+    "Nombre": "setecientos diecinueve"
+  },
+  {
+    "Valor": 720,
+    "Nombre": "setecientos veinte"
+  },
+  {
+    "Valor": 721,
+    "Nombre": "setecientos veintiuno"
+  },
+  {
+    "Valor": 722,
+    "Nombre": "setecientos veintidós"
+  },
+  {
+    "Valor": 723,
+    "Nombre": "setecientos veintitrés"
+  },
+  {
+    "Valor": 724,
+    "Nombre": "setecientos veinticuatro"
+  },
+  {
+    "Valor": 725,
+    "Nombre": "setecientos veinticinco"
+  },
+  {
+    "Valor": 726,
+    "Nombre": "setecientos veintiséis"
+  },
+  {
+    "Valor": 727,
+    "Nombre": "setecientos veintisiete"
+  },
+  {
+    "Valor": 728,
+    "Nombre": "setecientos veintiocho"
+  },
+  {
+    "Valor": 729,
+    "Nombre": "setecientos veintinueve"
+  },
+  {
+    "Valor": 730,
+    "Nombre": "setecientos treinta"
+  },
+  {
+    "Valor": 731,
+    "Nombre": "setecientos treinta y uno"
+  },
+  {
+    "Valor": 732,
+    "Nombre": "setecientos treinta y dos"
+  },
+  {
+    "Valor": 733,
+    "Nombre": "setecientos treinta y tres"
+  },
+  {
+    "Valor": 734,
+    "Nombre": "setecientos treinta y cuatro"
+  },
+  {
+    "Valor": 735,
+    "Nombre": "setecientos treinta y cinco"
+  },
+  {
+    "Valor": 736,
+    "Nombre": "setecientos treinta y seis"
+  },
+  {
+    "Valor": 737,
+    "Nombre": "setecientos treinta y siete"
+  },
+  {
+    "Valor": 738,
+    "Nombre": "setecientos treinta y ocho"
+  },
+  {
+    "Valor": 739,
+    "Nombre": "setecientos treinta y nueve"
+  },
+  {
+    "Valor": 740,
+    "Nombre": "setecientos cuarenta"
+  },
+  {
+    "Valor": 741,
+    "Nombre": "setecientos cuarenta y uno"
+  },
+  {
+    "Valor": 742,
+    "Nombre": "setecientos cuarenta y dos"
+  },
+  {
+    "Valor": 743,
+    "Nombre": "setecientos cuarenta y tres"
+  },
+  {
+    "Valor": 744,
+    "Nombre": "setecientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 745,
+    "Nombre": "setecientos cuarenta y cinco"
+  },
+  {
+    "Valor": 746,
+    "Nombre": "setecientos cuarenta y seis"
+  },
+  {
+    "Valor": 747,
+    "Nombre": "setecientos cuarenta y siete"
+  },
+  {
+    "Valor": 748,
+    "Nombre": "setecientos cuarenta y ocho"
+  },
+  {
+    "Valor": 749,
+    "Nombre": "setecientos cuarenta y nueve"
+  },
+  {
+    "Valor": 750,
+    "Nombre": "setecientos cincuenta"
+  },
+  {
+    "Valor": 751,
+    "Nombre": "setecientos cincuenta y uno"
+  },
+  {
+    "Valor": 752,
+    "Nombre": "setecientos cincuenta y dos"
+  },
+  {
+    "Valor": 753,
+    "Nombre": "setecientos cincuenta y tres"
+  },
+  {
+    "Valor": 754,
+    "Nombre": "setecientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 755,
+    "Nombre": "setecientos cincuenta y cinco"
+  },
+  {
+    "Valor": 756,
+    "Nombre": "setecientos cincuenta y seis"
+  },
+  {
+    "Valor": 757,
+    "Nombre": "setecientos cincuenta y siete"
+  },
+  {
+    "Valor": 758,
+    "Nombre": "setecientos cincuenta y ocho"
+  },
+  {
+    "Valor": 759,
+    "Nombre": "setecientos cincuenta y nueve"
+  },
+  {
+    "Valor": 760,
+    "Nombre": "setecientos sesenta"
+  },
+  {
+    "Valor": 761,
+    "Nombre": "setecientos sesenta y uno"
+  },
+  {
+    "Valor": 762,
+    "Nombre": "setecientos sesenta y dos"
+  },
+  {
+    "Valor": 763,
+    "Nombre": "setecientos sesenta y tres"
+  },
+  {
+    "Valor": 764,
+    "Nombre": "setecientos sesenta y cuatro"
+  },
+  {
+    "Valor": 765,
+    "Nombre": "setecientos sesenta y cinco"
+  },
+  {
+    "Valor": 766,
+    "Nombre": "setecientos sesenta y seis"
+  },
+  {
+    "Valor": 767,
+    "Nombre": "setecientos sesenta y siete"
+  },
+  {
+    "Valor": 768,
+    "Nombre": "setecientos sesenta y ocho"
+  },
+  {
+    "Valor": 769,
+    "Nombre": "setecientos sesenta y nueve"
+  },
+  {
+    "Valor": 770,
+    "Nombre": "setecientos setenta"
+  },
+  {
+    "Valor": 771,
+    "Nombre": "setecientos setenta y uno"
+  },
+  {
+    "Valor": 772,
+    "Nombre": "setecientos setenta y dos"
+  },
+  {
+    "Valor": 773,
+    "Nombre": "setecientos setenta y tres"
+  },
+  {
+    "Valor": 774,
+    "Nombre": "setecientos setenta y cuatro"
+  },
+  {
+    "Valor": 775,
+    "Nombre": "setecientos setenta y cinco"
+  },
+  {
+    "Valor": 776,
+    "Nombre": "setecientos setenta y seis"
+  },
+  {
+    "Valor": 777,
+    "Nombre": "setecientos setenta y siete"
+  },
+  {
+    "Valor": 778,
+    "Nombre": "setecientos setenta y ocho"
+  },
+  {
+    "Valor": 779,
+    "Nombre": "setecientos setenta y nueve"
+  },
+  {
+    "Valor": 780,
+    "Nombre": "setecientos ochenta"
+  },
+  {
+    "Valor": 781,
+    "Nombre": "setecientos ochenta y uno"
+  },
+  {
+    "Valor": 782,
+    "Nombre": "setecientos ochenta y dos"
+  },
+  {
+    "Valor": 783,
+    "Nombre": "setecientos ochenta y tres"
+  },
+  {
+    "Valor": 784,
+    "Nombre": "setecientos ochenta y cuatro"
+  },
+  {
+    "Valor": 785,
+    "Nombre": "setecientos ochenta y cinco"
+  },
+  {
+    "Valor": 786,
+    "Nombre": "setecientos ochenta y seis"
+  },
+  {
+    "Valor": 787,
+    "Nombre": "setecientos ochenta y siete"
+  },
+  {
+    "Valor": 788,
+    "Nombre": "setecientos ochenta y ocho"
+  },
+  {
+    "Valor": 789,
+    "Nombre": "setecientos ochenta y nueve"
+  },
+  {
+    "Valor": 790,
+    "Nombre": "setecientos noventa"
+  },
+  {
+    "Valor": 791,
+    "Nombre": "setecientos noventa y uno"
+  },
+  {
+    "Valor": 792,
+    "Nombre": "setecientos noventa y dos"
+  },
+  {
+    "Valor": 793,
+    "Nombre": "setecientos noventa y tres"
+  },
+  {
+    "Valor": 794,
+    "Nombre": "setecientos noventa y cuatro"
+  },
+  {
+    "Valor": 795,
+    "Nombre": "setecientos noventa y cinco"
+  },
+  {
+    "Valor": 796,
+    "Nombre": "setecientos noventa y seis"
+  },
+  {
+    "Valor": 797,
+    "Nombre": "setecientos noventa y siete"
+  },
+  {
+    "Valor": 798,
+    "Nombre": "setecientos noventa y ocho"
+  },
+  {
+    "Valor": 799,
+    "Nombre": "setecientos noventa y nueve"
+  },
+  {
+    "Valor": 800,
+    "Nombre": "ochocientos"
+  },
+  {
+    "Valor": 801,
+    "Nombre": "ochocientos uno"
+  },
+  {
+    "Valor": 802,
+    "Nombre": "ochocientos dos"
+  },
+  {
+    "Valor": 803,
+    "Nombre": "ochocientos tres"
+  },
+  {
+    "Valor": 804,
+    "Nombre": "ochocientos cuatro"
+  },
+  {
+    "Valor": 805,
+    "Nombre": "ochocientos cinco"
+  },
+  {
+    "Valor": 806,
+    "Nombre": "ochocientos seis"
+  },
+  {
+    "Valor": 807,
+    "Nombre": "ochocientos siete"
+  },
+  {
+    "Valor": 808,
+    "Nombre": "ochocientos ocho"
+  },
+  {
+    "Valor": 809,
+    "Nombre": "ochocientos nueve"
+  },
+  {
+    "Valor": 810,
+    "Nombre": "ochocientos diez"
+  },
+  {
+    "Valor": 811,
+    "Nombre": "ochocientos once"
+  },
+  {
+    "Valor": 812,
+    "Nombre": "ochocientos doce"
+  },
+  {
+    "Valor": 813,
+    "Nombre": "ochocientos trece"
+  },
+  {
+    "Valor": 814,
+    "Nombre": "ochocientos catorce"
+  },
+  {
+    "Valor": 815,
+    "Nombre": "ochocientos quince"
+  },
+  {
+    "Valor": 816,
+    "Nombre": "ochocientos dieciséis"
+  },
+  {
+    "Valor": 817,
+    "Nombre": "ochocientos diecisiete"
+  },
+  {
+    "Valor": 818,
+    "Nombre": "ochocientos dieciocho"
+  },
+  {
+    "Valor": 819,
+    "Nombre": "ochocientos diecinueve"
+  },
+  {
+    "Valor": 820,
+    "Nombre": "ochocientos veinte"
+  },
+  {
+    "Valor": 821,
+    "Nombre": "ochocientos veintiuno"
+  },
+  {
+    "Valor": 822,
+    "Nombre": "ochocientos veintidós"
+  },
+  {
+    "Valor": 823,
+    "Nombre": "ochocientos veintitrés"
+  },
+  {
+    "Valor": 824,
+    "Nombre": "ochocientos veinticuatro"
+  },
+  {
+    "Valor": 825,
+    "Nombre": "ochocientos veinticinco"
+  },
+  {
+    "Valor": 826,
+    "Nombre": "ochocientos veintiséis"
+  },
+  {
+    "Valor": 827,
+    "Nombre": "ochocientos veintisiete"
+  },
+  {
+    "Valor": 828,
+    "Nombre": "ochocientos veintiocho"
+  },
+  {
+    "Valor": 829,
+    "Nombre": "ochocientos veintinueve"
+  },
+  {
+    "Valor": 830,
+    "Nombre": "ochocientos treinta"
+  },
+  {
+    "Valor": 831,
+    "Nombre": "ochocientos treinta y uno"
+  },
+  {
+    "Valor": 832,
+    "Nombre": "ochocientos treinta y dos"
+  },
+  {
+    "Valor": 833,
+    "Nombre": "ochocientos treinta y tres"
+  },
+  {
+    "Valor": 834,
+    "Nombre": "ochocientos treinta y cuatro"
+  },
+  {
+    "Valor": 835,
+    "Nombre": "ochocientos treinta y cinco"
+  },
+  {
+    "Valor": 836,
+    "Nombre": "ochocientos treinta y seis"
+  },
+  {
+    "Valor": 837,
+    "Nombre": "ochocientos treinta y siete"
+  },
+  {
+    "Valor": 838,
+    "Nombre": "ochocientos treinta y ocho"
+  },
+  {
+    "Valor": 839,
+    "Nombre": "ochocientos treinta y nueve"
+  },
+  {
+    "Valor": 840,
+    "Nombre": "ochocientos cuarenta"
+  },
+  {
+    "Valor": 841,
+    "Nombre": "ochocientos cuarenta y uno"
+  },
+  {
+    "Valor": 842,
+    "Nombre": "ochocientos cuarenta y dos"
+  },
+  {
+    "Valor": 843,
+    "Nombre": "ochocientos cuarenta y tres"
+  },
+  {
+    "Valor": 844,
+    "Nombre": "ochocientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 845,
+    "Nombre": "ochocientos cuarenta y cinco"
+  },
+  {
+    "Valor": 846,
+    "Nombre": "ochocientos cuarenta y seis"
+  },
+  {
+    "Valor": 847,
+    "Nombre": "ochocientos cuarenta y siete"
+  },
+  {
+    "Valor": 848,
+    "Nombre": "ochocientos cuarenta y ocho"
+  },
+  {
+    "Valor": 849,
+    "Nombre": "ochocientos cuarenta y nueve"
+  },
+  {
+    "Valor": 850,
+    "Nombre": "ochocientos cincuenta"
+  },
+  {
+    "Valor": 851,
+    "Nombre": "ochocientos cincuenta y uno"
+  },
+  {
+    "Valor": 852,
+    "Nombre": "ochocientos cincuenta y dos"
+  },
+  {
+    "Valor": 853,
+    "Nombre": "ochocientos cincuenta y tres"
+  },
+  {
+    "Valor": 854,
+    "Nombre": "ochocientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 855,
+    "Nombre": "ochocientos cincuenta y cinco"
+  },
+  {
+    "Valor": 856,
+    "Nombre": "ochocientos cincuenta y seis"
+  },
+  {
+    "Valor": 857,
+    "Nombre": "ochocientos cincuenta y siete"
+  },
+  {
+    "Valor": 858,
+    "Nombre": "ochocientos cincuenta y ocho"
+  },
+  {
+    "Valor": 859,
+    "Nombre": "ochocientos cincuenta y nueve"
+  },
+  {
+    "Valor": 860,
+    "Nombre": "ochocientos sesenta"
+  },
+  {
+    "Valor": 861,
+    "Nombre": "ochocientos sesenta y uno"
+  },
+  {
+    "Valor": 862,
+    "Nombre": "ochocientos sesenta y dos"
+  },
+  {
+    "Valor": 863,
+    "Nombre": "ochocientos sesenta y tres"
+  },
+  {
+    "Valor": 864,
+    "Nombre": "ochocientos sesenta y cuatro"
+  },
+  {
+    "Valor": 865,
+    "Nombre": "ochocientos sesenta y cinco"
+  },
+  {
+    "Valor": 866,
+    "Nombre": "ochocientos sesenta y seis"
+  },
+  {
+    "Valor": 867,
+    "Nombre": "ochocientos sesenta y siete"
+  },
+  {
+    "Valor": 868,
+    "Nombre": "ochocientos sesenta y ocho"
+  },
+  {
+    "Valor": 869,
+    "Nombre": "ochocientos sesenta y nueve"
+  },
+  {
+    "Valor": 870,
+    "Nombre": "ochocientos setenta"
+  },
+  {
+    "Valor": 871,
+    "Nombre": "ochocientos setenta y uno"
+  },
+  {
+    "Valor": 872,
+    "Nombre": "ochocientos setenta y dos"
+  },
+  {
+    "Valor": 873,
+    "Nombre": "ochocientos setenta y tres"
+  },
+  {
+    "Valor": 874,
+    "Nombre": "ochocientos setenta y cuatro"
+  },
+  {
+    "Valor": 875,
+    "Nombre": "ochocientos setenta y cinco"
+  },
+  {
+    "Valor": 876,
+    "Nombre": "ochocientos setenta y seis"
+  },
+  {
+    "Valor": 877,
+    "Nombre": "ochocientos setenta y siete"
+  },
+  {
+    "Valor": 878,
+    "Nombre": "ochocientos setenta y ocho"
+  },
+  {
+    "Valor": 879,
+    "Nombre": "ochocientos setenta y nueve"
+  },
+  {
+    "Valor": 880,
+    "Nombre": "ochocientos ochenta"
+  },
+  {
+    "Valor": 881,
+    "Nombre": "ochocientos ochenta y uno"
+  },
+  {
+    "Valor": 882,
+    "Nombre": "ochocientos ochenta y dos"
+  },
+  {
+    "Valor": 883,
+    "Nombre": "ochocientos ochenta y tres"
+  },
+  {
+    "Valor": 884,
+    "Nombre": "ochocientos ochenta y cuatro"
+  },
+  {
+    "Valor": 885,
+    "Nombre": "ochocientos ochenta y cinco"
+  },
+  {
+    "Valor": 886,
+    "Nombre": "ochocientos ochenta y seis"
+  },
+  {
+    "Valor": 887,
+    "Nombre": "ochocientos ochenta y siete"
+  },
+  {
+    "Valor": 888,
+    "Nombre": "ochocientos ochenta y ocho"
+  },
+  {
+    "Valor": 889,
+    "Nombre": "ochocientos ochenta y nueve"
+  },
+  {
+    "Valor": 890,
+    "Nombre": "ochocientos noventa"
+  },
+  {
+    "Valor": 891,
+    "Nombre": "ochocientos noventa y uno"
+  },
+  {
+    "Valor": 892,
+    "Nombre": "ochocientos noventa y dos"
+  },
+  {
+    "Valor": 893,
+    "Nombre": "ochocientos noventa y tres"
+  },
+  {
+    "Valor": 894,
+    "Nombre": "ochocientos noventa y cuatro"
+  },
+  {
+    "Valor": 895,
+    "Nombre": "ochocientos noventa y cinco"
+  },
+  {
+    "Valor": 896,
+    "Nombre": "ochocientos noventa y seis"
+  },
+  {
+    "Valor": 897,
+    "Nombre": "ochocientos noventa y siete"
+  },
+  {
+    "Valor": 898,
+    "Nombre": "ochocientos noventa y ocho"
+  },
+  {
+    "Valor": 899,
+    "Nombre": "ochocientos noventa y nueve"
+  },
+  {
+    "Valor": 900,
+    "Nombre": "novecientos"
+  },
+  {
+    "Valor": 901,
+    "Nombre": "novecientos uno"
+  },
+  {
+    "Valor": 902,
+    "Nombre": "novecientos dos"
+  },
+  {
+    "Valor": 903,
+    "Nombre": "novecientos tres"
+  },
+  {
+    "Valor": 904,
+    "Nombre": "novecientos cuatro"
+  },
+  {
+    "Valor": 905,
+    "Nombre": "novecientos cinco"
+  },
+  {
+    "Valor": 906,
+    "Nombre": "novecientos seis"
+  },
+  {
+    "Valor": 907,
+    "Nombre": "novecientos siete"
+  },
+  {
+    "Valor": 908,
+    "Nombre": "novecientos ocho"
+  },
+  {
+    "Valor": 909,
+    "Nombre": "novecientos nueve"
+  },
+  {
+    "Valor": 910,
+    "Nombre": "novecientos diez"
+  },
+  {
+    "Valor": 911,
+    "Nombre": "novecientos once"
+  },
+  {
+    "Valor": 912,
+    "Nombre": "novecientos doce"
+  },
+  {
+    "Valor": 913,
+    "Nombre": "novecientos trece"
+  },
+  {
+    "Valor": 914,
+    "Nombre": "novecientos catorce"
+  },
+  {
+    "Valor": 915,
+    "Nombre": "novecientos quince"
+  },
+  {
+    "Valor": 916,
+    "Nombre": "novecientos dieciséis"
+  },
+  {
+    "Valor": 917,
+    "Nombre": "novecientos diecisiete"
+  },
+  {
+    "Valor": 918,
+    "Nombre": "novecientos dieciocho"
+  },
+  {
+    "Valor": 919,
+    "Nombre": "novecientos diecinueve"
+  },
+  {
+    "Valor": 920,
+    "Nombre": "novecientos veinte"
+  },
+  {
+    "Valor": 921,
+    "Nombre": "novecientos veintiuno"
+  },
+  {
+    "Valor": 922,
+    "Nombre": "novecientos veintidós"
+  },
+  {
+    "Valor": 923,
+    "Nombre": "novecientos veintitrés"
+  },
+  {
+    "Valor": 924,
+    "Nombre": "novecientos veinticuatro"
+  },
+  {
+    "Valor": 925,
+    "Nombre": "novecientos veinticinco"
+  },
+  {
+    "Valor": 926,
+    "Nombre": "novecientos veintiséis"
+  },
+  {
+    "Valor": 927,
+    "Nombre": "novecientos veintisiete"
+  },
+  {
+    "Valor": 928,
+    "Nombre": "novecientos veintiocho"
+  },
+  {
+    "Valor": 929,
+    "Nombre": "novecientos veintinueve"
+  },
+  {
+    "Valor": 930,
+    "Nombre": "novecientos treinta"
+  },
+  {
+    "Valor": 931,
+    "Nombre": "novecientos treinta y uno"
+  },
+  {
+    "Valor": 932,
+    "Nombre": "novecientos treinta y dos"
+  },
+  {
+    "Valor": 933,
+    "Nombre": "novecientos treinta y tres"
+  },
+  {
+    "Valor": 934,
+    "Nombre": "novecientos treinta y cuatro"
+  },
+  {
+    "Valor": 935,
+    "Nombre": "novecientos treinta y cinco"
+  },
+  {
+    "Valor": 936,
+    "Nombre": "novecientos treinta y seis"
+  },
+  {
+    "Valor": 937,
+    "Nombre": "novecientos treinta y siete"
+  },
+  {
+    "Valor": 938,
+    "Nombre": "novecientos treinta y ocho"
+  },
+  {
+    "Valor": 939,
+    "Nombre": "novecientos treinta y nueve"
+  },
+  {
+    "Valor": 940,
+    "Nombre": "novecientos cuarenta"
+  },
+  {
+    "Valor": 941,
+    "Nombre": "novecientos cuarenta y uno"
+  },
+  {
+    "Valor": 942,
+    "Nombre": "novecientos cuarenta y dos"
+  },
+  {
+    "Valor": 943,
+    "Nombre": "novecientos cuarenta y tres"
+  },
+  {
+    "Valor": 944,
+    "Nombre": "novecientos cuarenta y cuatro"
+  },
+  {
+    "Valor": 945,
+    "Nombre": "novecientos cuarenta y cinco"
+  },
+  {
+    "Valor": 946,
+    "Nombre": "novecientos cuarenta y seis"
+  },
+  {
+    "Valor": 947,
+    "Nombre": "novecientos cuarenta y siete"
+  },
+  {
+    "Valor": 948,
+    "Nombre": "novecientos cuarenta y ocho"
+  },
+  {
+    "Valor": 949,
+    "Nombre": "novecientos cuarenta y nueve"
+  },
+  {
+    "Valor": 950,
+    "Nombre": "novecientos cincuenta"
+  },
+  {
+    "Valor": 951,
+    "Nombre": "novecientos cincuenta y uno"
+  },
+  {
+    "Valor": 952,
+    "Nombre": "novecientos cincuenta y dos"
+  },
+  {
+    "Valor": 953,
+    "Nombre": "novecientos cincuenta y tres"
+  },
+  {
+    "Valor": 954,
+    "Nombre": "novecientos cincuenta y cuatro"
+  },
+  {
+    "Valor": 955,
+    "Nombre": "novecientos cincuenta y cinco"
+  },
+  {
+    "Valor": 956,
+    "Nombre": "novecientos cincuenta y seis"
+  },
+  {
+    "Valor": 957,
+    "Nombre": "novecientos cincuenta y siete"
+  },
+  {
+    "Valor": 958,
+    "Nombre": "novecientos cincuenta y ocho"
+  },
+  {
+    "Valor": 959,
+    "Nombre": "novecientos cincuenta y nueve"
+  },
+  {
+    "Valor": 960,
+    "Nombre": "novecientos sesenta"
+  },
+  {
+    "Valor": 961,
+    "Nombre": "novecientos sesenta y uno"
+  },
+  {
+    "Valor": 962,
+    "Nombre": "novecientos sesenta y dos"
+  },
+  {
+    "Valor": 963,
+    "Nombre": "novecientos sesenta y tres"
+  },
+  {
+    "Valor": 964,
+    "Nombre": "novecientos sesenta y cuatro"
+  },
+  {
+    "Valor": 965,
+    "Nombre": "novecientos sesenta y cinco"
+  },
+  {
+    "Valor": 966,
+    "Nombre": "novecientos sesenta y seis"
+  },
+  {
+    "Valor": 967,
+    "Nombre": "novecientos sesenta y siete"
+  },
+  {
+    "Valor": 968,
+    "Nombre": "novecientos sesenta y ocho"
+  },
+  {
+    "Valor": 969,
+    "Nombre": "novecientos sesenta y nueve"
+  },
+  {
+    "Valor": 970,
+    "Nombre": "novecientos setenta"
+  },
+  {
+    "Valor": 971,
+    "Nombre": "novecientos setenta y uno"
+  },
+  {
+    "Valor": 972,
+    "Nombre": "novecientos setenta y dos"
+  },
+  {
+    "Valor": 973,
+    "Nombre": "novecientos setenta y tres"
+  },
+  {
+    "Valor": 974,
+    "Nombre": "novecientos setenta y cuatro"
+  },
+  {
+    "Valor": 975,
+    "Nombre": "novecientos setenta y cinco"
+  },
+  {
+    "Valor": 976,
+    "Nombre": "novecientos setenta y seis"
+  },
+  {
+    "Valor": 977,
+    "Nombre": "novecientos setenta y siete"
+  },
+  {
+    "Valor": 978,
+    "Nombre": "novecientos setenta y ocho"
+  },
+  {
+    "Valor": 979,
+    "Nombre": "novecientos setenta y nueve"
+  },
+  {
+    "Valor": 980,
+    "Nombre": "novecientos ochenta"
+  },
+  {
+    "Valor": 981,
+    "Nombre": "novecientos ochenta y uno"
+  },
+  {
+    "Valor": 982,
+    "Nombre": "novecientos ochenta y dos"
+  },
+  {
+    "Valor": 983,
+    "Nombre": "novecientos ochenta y tres"
+  },
+  {
+    "Valor": 984,
+    "Nombre": "novecientos ochenta y cuatro"
+  },
+  {
+    "Valor": 985,
+    "Nombre": "novecientos ochenta y cinco"
+  },
+  {
+    "Valor": 986,
+    "Nombre": "novecientos ochenta y seis"
+  },
+  {
+    "Valor": 987,
+    "Nombre": "novecientos ochenta y siete"
+  },
+  {
+    "Valor": 988,
+    "Nombre": "novecientos ochenta y ocho"
+  },
+  {
+    "Valor": 989,
+    "Nombre": "novecientos ochenta y nueve"
+  },
+  {
+    "Valor": 990,
+    "Nombre": "novecientos noventa"
+  },
+  {
+    "Valor": 991,
+    "Nombre": "novecientos noventa y uno"
+  },
+  {
+    "Valor": 992,
+    "Nombre": "novecientos noventa y dos"
+  },
+  {
+    "Valor": 993,
+    "Nombre": "novecientos noventa y tres"
+  },
+  {
+    "Valor": 994,
+    "Nombre": "novecientos noventa y cuatro"
+  },
+  {
+    "Valor": 995,
+    "Nombre": "novecientos noventa y cinco"
+  },
+  {
+    "Valor": 996,
+    "Nombre": "novecientos noventa y seis"
+  },
+  {
+    "Valor": 997,
+    "Nombre": "novecientos noventa y siete"
+  },
+  {
+    "Valor": 998,
+    "Nombre": "novecientos noventa y ocho"
+  },
+  {
+    "Valor": 999,
+    "Nombre": "novecientos noventa y nueve"
+  },
+  {
+    "Valor": 1000,
+    "Nombre": "mil"
+  },
+  {
+    "Valor": 1000000,
+    "Nombre": "millón"
+  },
+  {
+    "Valor": 1000000,
+    "Nombre": "millones"
+  }
+] 
