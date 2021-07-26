@@ -1,0 +1,1182 @@
+﻿<UserControl
+    x:Class="Indexai.Views.RadicacionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:PdfViewer="clr-namespace:Syncfusion.Windows.PdfViewer;assembly=Syncfusion.PdfViewer.WPF"
+    xmlns:Syncfusion="http://schemas.syncfusion.com/wpf"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:system="clr-namespace:System;assembly=mscorlib"
+    xmlns:utils="clr-namespace:Indexai"
+    Height="760"
+    d:DesignWidth="1080"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme
+                    BaseTheme="Light"
+                    PrimaryColor="DeepPurple"
+                    SecondaryColor="Purple" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid x:Name="root" Margin="0,0,0,0">
+
+        <Grid>
+            <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+
+                <!--  Nuevo remitente  -->
+                <materialDesign:DialogHost.DialogContent>
+                    <Grid
+                        Width="500"
+                        Height="500"
+                        HorizontalAlignment="Center">
+
+
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.1*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <materialDesign:PackIcon
+                                Width="40"
+                                Height="40"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Foreground="{StaticResource PrimaryHueMidBrush}"
+                                Kind="UserAdd" />
+                            <TextBlock
+                                Grid.Column="1"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                                TextWrapping="Wrap">
+                                CREAR REMITENTE
+                            </TextBlock>
+
+                            <Grid
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                Margin="0,0,60,0"
+                                ShowGridLines="True">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="1*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50" />
+                                    <RowDefinition Height="6*" />
+                                    <RowDefinition Height="6*" />
+                                    <RowDefinition Height="6*" />
+                                    <RowDefinition Height="6*" />
+                                    <RowDefinition Height="6*" />
+                                    <RowDefinition Height="6*" />
+                                </Grid.RowDefinitions>
+
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="AlphaNBox" />
+                                    <TextBox
+                                        Name="txtInputRemNombre"
+                                        Width="150"
+                                        VerticalAlignment="Top"
+                                        materialDesign:HintAssist.Hint="Nombres"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <TextBox.Text>
+                                            <Binding Path="Nombre del remitente" UpdateSourceTrigger="PropertyChanged" />
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+
+                                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="AlphaABox" />
+                                    <TextBox
+                                        Name="txtInputRemApellido"
+                                        Width="150"
+                                        VerticalAlignment="Top"
+                                        materialDesign:HintAssist.Hint="Apellidos"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <TextBox.Text>
+                                            <Binding Path="Apellido del remitente" UpdateSourceTrigger="PropertyChanged" />
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="IdCard" />
+                                    <ComboBox Name="selectTipoDocumento" Width="150">
+                                        <ComboBoxItem IsSelected="True">
+                                            Tipo de documento
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            Cédula de Ciudadanía
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            Pasaporte
+                                        </ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="IdCard" />
+                                    <TextBox
+                                        Name="txtInputRemIdentificacion"
+                                        Width="150"
+                                        VerticalAlignment="Top"
+                                        materialDesign:HintAssist.Hint="Identificación"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <TextBox.Text>
+                                            <Binding Path="Identificación del remitente" UpdateSourceTrigger="PropertyChanged" />
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="2"
+                                    Grid.Column="0"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="ChessKing" />
+                                    <ComboBox
+                                        Name="selectTipoTercero"
+                                        Width="150"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <ComboBoxItem Width="150" IsSelected="True">
+                                            Tipo de remitente
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            PERSONA
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            EMPLEADO
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            USUARIO
+                                        </ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="CardAccountDetails" />
+                                    <ComboBox
+                                        Name="selectLugarExp"
+                                        Width="150"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <ComboBoxItem Width="150" IsSelected="True">
+                                            Lugar de Expedición
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            Bogota D.C
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            Cali
+                                        </ComboBoxItem>
+                                        <ComboBoxItem>
+                                            Medellín
+                                        </ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="3"
+                                    Grid.Column="0"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="Phone" />
+                                    <TextBox
+                                        Name="txtInputRemTelefono"
+                                        Width="150"
+                                        VerticalAlignment="Top"
+                                        materialDesign:HintAssist.Hint="Teléfono"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <TextBox.Text>
+                                            <Binding Path="Teléfono del remitente" UpdateSourceTrigger="PropertyChanged" />
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="3"
+                                    Grid.Column="1"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="MapAdd" />
+                                    <TextBox
+                                        Name="txtInputRemDireccion"
+                                        Width="150"
+                                        VerticalAlignment="Top"
+                                        materialDesign:HintAssist.Hint="Dirección"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <TextBox.Text>
+                                            <Binding Path="Dirección del remitente" UpdateSourceTrigger="PropertyChanged" />
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="4"
+                                    Grid.Column="0"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="At" />
+                                    <TextBox
+                                        Name="txtInputRemEmail"
+                                        Width="150"
+                                        VerticalAlignment="Top"
+                                        materialDesign:HintAssist.Hint="Email"
+                                        materialDesign:HintAssist.IsFloating="True">
+                                        <TextBox.Text>
+                                            <Binding Path="Email del remitente" UpdateSourceTrigger="PropertyChanged" />
+                                        </TextBox.Text>
+                                    </TextBox>
+                                </StackPanel>
+
+                                <StackPanel
+                                    Grid.Row="4"
+                                    Grid.Column="1"
+                                    Orientation="Horizontal">
+                                    <materialDesign:PackIcon
+                                        Width="25"
+                                        Height="25"
+                                        Margin="0,20,12,0"
+                                        VerticalAlignment="Top"
+                                        Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                        Kind="BriefcaseOutline" />
+                                    <ComboBox Name="selectRemCargo" Width="150">
+                                        <ComboBoxItem IsSelected="True">
+                                            Cargo
+                                        </ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <Button
+                                    Name="btnNuevoGuardarRemitente"
+                                    Grid.Row="7"
+                                    Margin="4"
+                                    VerticalAlignment="Center"
+                                    Click="btnNuevoGuardarRemitente_Click"
+                                    Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"
+                                    Style="{DynamicResource MaterialDesignFlatButton}">
+                                    GUARDAR
+                                </Button>
+                                <Button
+                                    Grid.Row="7"
+                                    Grid.Column="2"
+                                    Margin="4"
+                                    VerticalAlignment="Center"
+                                    Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"
+                                    Style="{DynamicResource MaterialDesignFlatButton}">
+                                    CANCELAR
+                                </Button>
+
+                            </Grid>
+
+
+
+                        </Grid>
+
+
+
+                    </Grid>
+                </materialDesign:DialogHost.DialogContent>
+
+                <Grid>
+                    <!--  Menu Lateral del Remitente  -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="270" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+
+                        <GroupBox Margin="2,0,0,2" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin">
+                            <GroupBox.Header>
+                                <TextBlock
+                                    Name="txtRemitente"
+                                    Width="250"
+                                    Margin="0,0,0.4,0"
+                                    HorizontalAlignment="Right"
+                                    FontWeight="Bold"
+                                    Foreground="White"
+                                    Text="Remitente" />
+
+                            </GroupBox.Header>
+
+                            <!--  Fomulario del remitente  -->
+                            <Grid Grid.Row="1" Margin="0,10,0,0">
+
+                                <StackPanel Orientation="Vertical">
+
+                                    <!--  Filtro de busqueda  -->
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Margin="0,0,12,0"
+                                            VerticalAlignment="Bottom"
+                                            Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                            Kind="User" />
+
+                                        <ComboBox
+                                            Name="selectUsuarioAsignado"
+                                            Width="200"
+                                            materialDesign:HintAssist.Hint="Seleccionar.."
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            materialDesign:HintAssist.IsFloating="True"
+                                            IsEditable="True"
+                                            SelectionChanged="selectUsuarioAsignado_SelectionChanged" />
+                                    </StackPanel>
+
+                                    <!--  Valor de busqueda  -->
+                                    <!--    <StackPanel Orientation="Horizontal">
+
+                            <materialDesign:PackIcon
+                                Margin="0,4,12,0"
+                                VerticalAlignment="Bottom"
+                                Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                Kind="AccountSearch" />
+                            <TextBox
+                                x:Name="textSearch"
+                                Width="200"
+                                materialDesign:HintAssist.HelperText="Escriba el valor a buscar"
+                                materialDesign:HintAssist.Hint="Valor"
+                                materialDesign:HintAssist.IsFloating="True">
+                                <TextBox.Text>
+                                    <Binding Path="Buscar" UpdateSourceTrigger="PropertyChanged" />
+                                </TextBox.Text>
+                            </TextBox>
+                        </StackPanel>-->
+
+                                    <!--  Set de Botones  -->
+                                    <StackPanel Margin="50,40,10,10" Orientation="Horizontal">
+                                        <!--  Agregar Usuario  -->
+                                        <StackPanel>
+                                            <Button
+                                                Width="120"
+                                                Margin="0,0,0,0"
+                                                Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}"
+                                                FontSize="12"
+                                                Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                                                ToolTip="Agregar Usuario">
+                                                Agregar usuario
+                                            </Button>
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                    <!--  Datos del Usuario  -->
+                                    <StackPanel Margin="10,20,0,0" Orientation="Horizontal">
+                                        <materialDesign:Flipper>
+
+                                            <!--  Imagen del Usuario  -->
+                                            <materialDesign:Flipper.FrontContent>
+                                                <Grid
+                                                    Width="220"
+                                                    Height="Auto"
+                                                    Margin="0,40,0,0">
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="*" />
+                                                    </Grid.RowDefinitions>
+                                                    <materialDesign:ColorZone VerticalAlignment="Stretch" Mode="PrimaryLight">
+
+                                                        <materialDesign:PackIcon
+                                                            Width="128"
+                                                            Height="128"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Kind="AccountCircle" />
+                                                    </materialDesign:ColorZone>
+                                                    <StackPanel
+                                                        Grid.Row="1"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Center">
+                                                        <StackPanel Margin="0,20,0,0">
+                                                            <materialDesign:Chip
+                                                                Name="chipNombreUsuario"
+                                                                Content="Junior Parra Gamarra"
+                                                                FontSize="10"
+                                                                Icon="JP" />
+                                                        </StackPanel>
+                                                        <StackPanel Margin="0,20,0,20" VerticalAlignment="Center">
+                                                            <materialDesign:Chip
+                                                                Name="chipTipoUsuario"
+                                                                Content="Tipo Usuario"
+                                                                FontSize="10"
+                                                                Icon="T" />
+                                                        </StackPanel>
+                                                        <StackPanel>
+                                                            <Button
+                                                                Margin="0,4,0,0"
+                                                                Command="{x:Static materialDesign:Flipper.FlipCommand}"
+                                                                Style="{StaticResource MaterialDesignFlatButton}">
+                                                                EDITAR
+                                                            </Button>
+                                                        </StackPanel>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </materialDesign:Flipper.FrontContent>
+
+                                            <!--  Datos del Usuario  -->
+                                            <materialDesign:Flipper.BackContent>
+                                                <Grid Width="220" Height="Auto">
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="*" />
+                                                    </Grid.RowDefinitions>
+                                                    <materialDesign:ColorZone Padding="6" Mode="PrimaryLight">
+                                                        <StackPanel Orientation="Horizontal">
+                                                            <Button
+                                                                HorizontalAlignment="Left"
+                                                                Command="{x:Static materialDesign:Flipper.FlipCommand}"
+                                                                Style="{StaticResource MaterialDesignToolForegroundButton}">
+                                                                <materialDesign:PackIcon HorizontalAlignment="Right" Kind="ArrowLeft" />
+                                                            </Button>
+                                                            <TextBlock Margin="8,0,0,0" VerticalAlignment="Center">
+                                                                Información
+                                                            </TextBlock>
+                                                        </StackPanel>
+                                                    </materialDesign:ColorZone>
+                                                    <Grid
+                                                        Grid.Row="1"
+                                                        Width="172"
+                                                        Margin="0,6,0,0"
+                                                        HorizontalAlignment="Center"
+                                                        VerticalAlignment="Top">
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition />
+                                                            <RowDefinition />
+                                                            <RowDefinition />
+                                                            <RowDefinition />
+                                                        </Grid.RowDefinitions>
+                                                        <TextBox
+                                                            Name="txtTelefono"
+                                                            Margin="0,12,0,0"
+                                                            materialDesign:HintAssist.Hint="Telefono"
+                                                            materialDesign:HintAssist.IsFloating="True" />
+                                                        <TextBox
+                                                            Name="txtDireccion"
+                                                            Grid.Row="1"
+                                                            Margin="0,12,0,0"
+                                                            materialDesign:HintAssist.Hint="Dirección"
+                                                            materialDesign:HintAssist.IsFloating="True" />
+                                                        <StackPanel
+                                                            Grid.Row="2"
+                                                            Width="172"
+                                                            Margin="0,6,0,0"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Top">
+                                                            <ComboBox
+                                                                Name="selectTipoUsuario"
+                                                                Grid.Row="1"
+                                                                Margin="0,12,0,0"
+                                                                materialDesign:HintAssist.Hint="Tipo de Usuario"
+                                                                materialDesign:HintAssist.HintOpacity=".26"
+                                                                IsEditable="True">
+                                                                <ComboBoxItem>
+                                                                    Funcionario
+                                                                </ComboBoxItem>
+                                                                <ComboBoxItem>
+                                                                    Dignatario
+                                                                </ComboBoxItem>
+                                                            </ComboBox>
+                                                            <TextBox
+                                                                Name="txtEmail"
+                                                                Grid.Row="2"
+                                                                Margin="0,12,0,0"
+                                                                materialDesign:HintAssist.Hint="Email"
+                                                                materialDesign:HintAssist.IsFloating="True" />
+                                                        </StackPanel>
+                                                        <StackPanel
+                                                            Grid.Row="3"
+                                                            Width="172"
+                                                            Margin="0,6,0,0"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Top">
+                                                            <ComboBox
+                                                                Name="selectDepartamento"
+                                                                Grid.Row="1"
+                                                                Margin="0,12,0,0"
+                                                                materialDesign:HintAssist.Hint="Departamento"
+                                                                materialDesign:HintAssist.HintOpacity=".26"
+                                                                IsEditable="True" />
+                                                            <ComboBox
+                                                                Name="selectCiudad"
+                                                                Grid.Row="1"
+                                                                Margin="0,12,0,0"
+                                                                materialDesign:HintAssist.Hint="Ciudad"
+                                                                materialDesign:HintAssist.HintOpacity=".26"
+                                                                IsEditable="True" />
+                                                            <Button
+                                                                Name="btnActualizarRemitente"
+                                                                Margin="0,12,0,0"
+                                                                Click="btnActualizarRemitente_Click"
+                                                                Content="{materialDesign:PackIcon ContentSave}"
+                                                                ToolTip="Actualizar Usuario" />
+
+                                                        </StackPanel>
+
+                                                    </Grid>
+                                                </Grid>
+                                            </materialDesign:Flipper.BackContent>
+
+                                        </materialDesign:Flipper>
+
+                                    </StackPanel>
+
+                                </StackPanel>
+
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+
+                    <!--  Workspace de trabajo  -->
+                    <Grid Margin="272,0,2,2">
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1.5*" />
+                                <ColumnDefinition Width="0.5*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!--  Formulario de Radicado  -->
+                            <GroupBox
+                                Margin="0"
+                                FontWeight="Bold"
+                                Header="Radicado">
+
+                                <Grid Margin="20,0,0,10">
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="2*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="3.5*" />
+                                        <RowDefinition Height="1.5*" />
+                                    </Grid.RowDefinitions>
+
+
+                                    <!--  Asunto Predeterminada  -->
+                                    <StackPanel
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectAsuntosPredeterminados, Path=BorderBrush}"
+                                            Kind="AndroidMessages" />
+                                        <ComboBox
+                                            Name="selectAsuntosPredeterminados"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="Asuntos Predeterminados"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True">
+                                            <ComboBoxItem>
+                                                Exoneración de Cuentas
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                    </StackPanel>
+
+                                    <!--  Asunto  -->
+                                    <StackPanel
+                                        Grid.Row="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,25,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=txtBoxDetalleAsunto, Path=BorderBrush}"
+                                            Kind="TextSubject" />
+                                        <TextBox
+                                            Name="txtBoxDetalleAsunto"
+                                            Width="230"
+                                            Height="50"
+                                            Margin="0,15,12,0"
+                                            VerticalAlignment="Top"
+                                            materialDesign:HintAssist.Hint="Detalle Asunto"
+                                            AcceptsReturn="True"
+                                            Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                                            TextWrapping="Wrap"
+                                            VerticalScrollBarVisibility="Auto" />
+                                    </StackPanel>
+
+                                    <!--  Medio de Recepción  -->
+                                    <StackPanel
+                                        Grid.Row="2"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectMedioRecepcion, Path=BorderBrush}"
+                                            Kind="TruckDelivery" />
+                                        <ComboBox
+                                            Name="selectMedioRecepcion"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="Medio de Recepción"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True">
+                                            <ComboBoxItem>
+                                                Fisico
+                                            </ComboBoxItem>
+                                            <ComboBoxItem>
+                                                Digital
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                    </StackPanel>
+
+                                    <!--  Anexos  -->
+                                    <StackPanel
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=txtRefDesAnexos, Path=BorderBrush}"
+                                            Kind="Attachment" />
+                                        <TextBox
+                                            Name="txtRefDesAnexos"
+                                            Width="230"
+                                            materialDesign:HintAssist.Hint="Descripción de anexos"
+                                            materialDesign:HintAssist.IsFloating="True">
+                                            <TextBox.Text>
+                                                <Binding Path="Descripción de anexos" UpdateSourceTrigger="PropertyChanged" />
+                                            </TextBox.Text>
+                                        </TextBox>
+                                    </StackPanel>
+
+                                    <!--  Referencia  -->
+                                    <StackPanel
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=textBoxReferenciaCliente, Path=BorderBrush}"
+                                            Kind="FaceAgent" />
+                                        <TextBox
+                                            Name="textBoxReferenciaCliente"
+                                            Width="230"
+                                            Height="50"
+                                            Margin="0,15,12,0"
+                                            VerticalAlignment="Top"
+                                            materialDesign:HintAssist.Hint="Referencia radicado cliente externo"
+                                            AcceptsReturn="True"
+                                            Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
+                                            TextWrapping="Wrap"
+                                            VerticalScrollBarVisibility="Auto" />
+                                    </StackPanel>
+
+                                    <!--  Fecha de vencimiento  -->
+                                    <StackPanel
+                                        Grid.Row="2"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,0,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=calendarFechaVencimiento, Path=BorderBrush}"
+                                            Kind="DateRange" />
+                                        <DatePicker
+                                            Name="calendarFechaVencimiento"
+                                            Width="230"
+                                            Margin="15,20,0,0"
+                                            materialDesign:HintAssist.Hint="Fecha de Vencimento">
+                                            <DatePicker.SelectedDate>
+                                                <Binding Path="FutureValidatingDate" UpdateSourceTrigger="PropertyChanged" />
+                                            </DatePicker.SelectedDate>
+                                        </DatePicker>
+                                    </StackPanel>
+
+                                    <!--  Serie  -->
+                                    <StackPanel
+                                        Grid.Row="3"
+                                        Grid.Column="0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectSerie, Path=BorderBrush}"
+                                            Kind="Counter" />
+                                        <ComboBox
+                                            Name="selectSerie"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="Serie"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True" />
+                                    </StackPanel>
+
+                                    <!--  Tipo Documental  -->
+                                    <StackPanel
+                                        Grid.Row="4"
+                                        Grid.Column="0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectTDocumental, Path=BorderBrush}"
+                                            Kind="ScatterPlot" />
+                                        <ComboBox
+                                            Name="selectTDocumental"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="Tipo Documental"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True" />
+                                    </StackPanel>
+
+                                    <!--  Regional  -->
+                                    <StackPanel
+                                        Grid.Row="5"
+                                        Grid.Column="0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectRegional, Path=BorderBrush}"
+                                            Kind="MapMarkerDistance" />
+                                        <ComboBox
+                                            Name="selectRegional"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="Regional"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True">
+                                            <ComboBoxItem>
+                                                CARIBE
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                    </StackPanel>
+
+                                    <!--  Sub-Serie  -->
+                                    <StackPanel
+                                        Grid.Row="3"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectSubSerie, Path=BorderBrush}"
+                                            Kind="Numeric2BoxMultipleOutline" />
+                                        <ComboBox
+                                            Name="selectSubSerie"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="SubSerie"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True" />
+                                    </StackPanel>
+
+                                    <!--  Dias de termino  -->
+                                    <StackPanel
+                                        Grid.Row="4"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=txtDiasTermino, Path=BorderBrush}"
+                                            Kind="Calendar" />
+                                        <TextBox
+                                            Name="txtDiasTermino"
+                                            Width="230"
+                                            materialDesign:HintAssist.Hint="Dias de termino"
+                                            materialDesign:HintAssist.IsFloating="True">
+                                            <TextBox.Text>
+                                                <Binding Path="Dias de termino" UpdateSourceTrigger="PropertyChanged" />
+                                            </TextBox.Text>
+                                        </TextBox>
+                                    </StackPanel>
+
+                                    <!--  Clasificación  -->
+                                    <StackPanel
+                                        Grid.Row="5"
+                                        Grid.Column="1"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:PackIcon
+                                            Width="25"
+                                            Height="25"
+                                            Margin="0,20,12,0"
+                                            VerticalAlignment="Top"
+                                            Foreground="{Binding ElementName=selectClasificacion, Path=BorderBrush}"
+                                            Kind="Buffer" />
+                                        <ComboBox
+                                            Name="selectClasificacion"
+                                            Width="230"
+                                            Margin="0,15,0,0"
+                                            materialDesign:HintAssist.Hint="Clasificación"
+                                            materialDesign:HintAssist.HintOpacity=".26"
+                                            IsEditable="True">
+                                            <ComboBoxItem>
+                                                FÁBRICA
+                                            </ComboBoxItem>
+                                        </ComboBox>
+                                    </StackPanel>
+
+                                    <!--  Copiar Usuarios a Radicado  -->
+                                    <StackPanel
+                                        Grid.Row="6"
+                                        Grid.Column="0"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Orientation="Horizontal">
+                                        <materialDesign:DialogHost
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            DialogTheme="Inherit">
+                                            <materialDesign:DialogHost.DialogContent>
+                                                <StackPanel Margin="16">
+                                                    <TextBlock>
+                                                        Copiar radicado a:
+                                                    </TextBlock>
+                                                    <ComboBox
+                                                        Name="selectCopiarUsuarios"
+                                                        Width="230"
+                                                        Margin="0,15,0,0"
+                                                        materialDesign:HintAssist.Hint="Usuarios"
+                                                        materialDesign:HintAssist.HintOpacity=".26"
+                                                        IsEditable="True" />
+                                                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                                                        <Button
+                                                            Margin="0,8,8,0"
+                                                            Command="materialDesign:DialogHost.CloseDialogCommand"
+                                                            IsDefault="True"
+                                                            Style="{StaticResource MaterialDesignFlatButton}">
+                                                            <Button.CommandParameter>
+                                                                <system:Boolean xmlns:system="clr-namespace:System;assembly=mscorlib">
+                                                                    True
+                                                                </system:Boolean>
+                                                            </Button.CommandParameter>
+                                                            Aceptar
+                                                        </Button>
+                                                        <Button
+                                                            Margin="0,8,8,0"
+                                                            Command="materialDesign:DialogHost.CloseDialogCommand"
+                                                            IsCancel="True"
+                                                            Style="{StaticResource MaterialDesignFlatButton}">
+                                                            <Button.CommandParameter>
+                                                                <system:Boolean xmlns:system="clr-namespace:System;assembly=mscorlib">
+                                                                    False
+                                                                </system:Boolean>
+                                                            </Button.CommandParameter>
+                                                            Cancelar
+                                                        </Button>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </materialDesign:DialogHost.DialogContent>
+                                            <Border
+                                                MinWidth="270"
+                                                MinHeight="130"
+                                                BorderBrush="{DynamicResource PrimaryHueMidBrush}"
+                                                BorderThickness="1"
+                                                ClipToBounds="True">
+                                                <Grid>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="*" />
+                                                        <RowDefinition Height="Auto" />
+                                                    </Grid.RowDefinitions>
+                                                    <ListBox Name="listBoxUsuarios" />
+                                                    <materialDesign:ColorZone
+                                                        Grid.Row="1"
+                                                        Effect="{DynamicResource MaterialDesignShadowDepth5}"
+                                                        Mode="PrimaryMid">
+                                                        <TextBlock Margin="10">
+                                                            Agregar usuarios
+                                                        </TextBlock>
+                                                    </materialDesign:ColorZone>
+                                                    <Button
+                                                        Grid.Row="0"
+                                                        Margin="0,0,28,-20"
+                                                        HorizontalAlignment="Right"
+                                                        VerticalAlignment="Bottom"
+                                                        Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}"
+                                                        Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}">
+                                                        <materialDesign:PackIcon
+                                                            Width="22"
+                                                            Height="22"
+                                                            Kind="Plus" />
+                                                    </Button>
+                                                </Grid>
+                                            </Border>
+                                        </materialDesign:DialogHost>
+                                    </StackPanel>
+
+                                    <!--  Dependencia y Responsable  -->
+                                    <Grid Grid.Row="6" Grid.Column="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+
+                                        <!--  Dependencia Responsable  -->
+                                        <StackPanel
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Orientation="Horizontal">
+                                            <materialDesign:PackIcon
+                                                Width="25"
+                                                Height="25"
+                                                Margin="0,20,12,0"
+                                                VerticalAlignment="Top"
+                                                Foreground="{Binding ElementName=NameTextBox, Path=BorderBrush}"
+                                                Kind="BriefcaseAccountOutline" />
+                                            <ComboBox
+                                                Name="selectDependenciaResponsable"
+                                                Width="230"
+                                                Margin="0,15,0,0"
+                                                materialDesign:HintAssist.Hint="Dependencia Responsable"
+                                                materialDesign:HintAssist.HintOpacity=".26"
+                                                IsEditable="True" />
+                                        </StackPanel>
+
+                                        <!--  Usuario Responsable  -->
+                                        <StackPanel
+                                            Grid.Row="1"
+                                            HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            Orientation="Horizontal">
+                                            <materialDesign:PackIcon
+                                                Width="25"
+                                                Height="25"
+                                                Margin="0,20,12,0"
+                                                VerticalAlignment="Top"
+                                                Foreground="{Binding ElementName=selectUsuarioResponsable, Path=BorderBrush}"
+                                                Kind="AccountSupervisorCircle" />
+                                            <ComboBox
+                                                Name="selectUsuarioResponsable"
+                                                Width="230"
+                                                Margin="0,15,0,0"
+                                                materialDesign:HintAssist.Hint="Usuario Responsable"
+                                                materialDesign:HintAssist.HintOpacity=".26"
+                                                IsEditable="True" />
+                                        </StackPanel>
+
+
+                                    </Grid>
+
+                                    <!--  Menu de Botones  -->
+                                    <Grid Grid.Row="7" Grid.Column="1">
+                                        <materialDesign:PopupBox
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center"
+                                            PlacementMode="LeftAndAlignMiddles"
+                                            Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"
+                                            ToolTip="Menú de Opciones"
+                                            UnfurlOrientation="Horizontal">
+                                            <StackPanel Orientation="Horizontal">
+
+                                                <!--  Eliminar  -->
+                                                <Button
+                                                    Name="btnRadicar"
+                                                    Click="btnRadicar_Click"
+                                                    Content="{materialDesign:PackIcon Send,
+                                                                                      Size=20}"
+                                                    ToolTip="Radicar" />
+
+                                                <Button
+                                                    Name="btnBorrador"
+                                                    Command="{Binding Trash}"
+                                                    Content="{materialDesign:PackIcon ContentSaveSettingsOutline,
+                                                                                      Size=20}"
+                                                    ToolTip="Guardar Radicado" />
+
+                                            </StackPanel>
+                                        </materialDesign:PopupBox>
+                                    </Grid>
+
+                                </Grid>
+                            </GroupBox>
+
+                            <!--  Carga de Adjuntos  -->
+                            <GroupBox
+                                Grid.Column="1"
+                                Margin="2,0,0,0"
+                                FontWeight="Bold"
+                                Header="Adjuntos">
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="0.1*" />
+                                        <RowDefinition Height="0.7*" />
+                                        <RowDefinition Height="0.3*" />
+                                        <RowDefinition Height="1*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Grid>
+                                        <StackPanel Orientation="Vertical">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Style="{StaticResource MaterialDesignSubtitle2TextBlock}">
+                                                    Vista previa
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Grid>
+
+                                    <Border Grid.Row="1" Background="Gray" />
+
+                                    <Grid Grid.Row="2">
+                                        <StackPanel Orientation="Vertical">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBox
+                                                    Name="FileNameTextBox"
+                                                    Width="200"
+                                                    Height="43"
+                                                    Margin="30,10,0,0"
+                                                    HorizontalAlignment="Left"
+                                                    VerticalAlignment="Top"
+                                                    Text="Seleccione los archivos"
+                                                    TextWrapping="Wrap" />
+
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Grid>
+
+                                    <Button
+                                        x:Name="BrowseButton"
+                                        Grid.Row="3"
+                                        Width="170"
+                                        Height="40"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Top"
+                                        Click="BrowseButton_Click"
+                                        Content="Adjuntar archivos"
+                                        RenderTransformOrigin="1.047,0.821" />
+                                </Grid>
+                            </GroupBox>
+                        </Grid>
+
+
+
+                    </Grid>
+                </Grid>
+
+            </materialDesign:DialogHost>
+        </Grid>
+    </Grid>
+
+</UserControl>

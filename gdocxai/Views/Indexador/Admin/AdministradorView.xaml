@@ -1,0 +1,66 @@
+﻿<UserControl
+    x:Class="Indexai.Views.AdministradorView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Indexai.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+    Width="981.081"
+    Height="506.757"
+    mc:Ignorable="d">
+    <Grid>
+        <syncfusion:TabControlExt
+            Name="adminTabs"
+            Grid.ColumnSpan="2"
+            AllowDragDrop="False"
+            CloseButtonType="Both"
+            EnableLabelEdit="False"
+            IsNewButtonEnabled="False"
+            ShowTabItemContextMenu="False"
+            ShowTabListContextMenu="False"
+            TabScrollButtonVisibility="Auto"
+            TabScrollStyle="Extended"
+            TabStripPlacement="Top">
+            <syncfusion:TabItemExt
+                CanClose="False"
+                CloseButtonState="Collapsed"
+                Header="Asignado carga"
+                IsSelected="True">
+                <Grid x:Name="adminContainer">
+                    <local:AsignarCargaView
+                        Width="{Binding ElementName=adminContainer, Path=ActualWidth}"
+                        Height="{Binding ElementName=adminContainer, Path=ActualHeight}"
+                        Margin="0,0,0,0" />
+                </Grid>
+            </syncfusion:TabItemExt>
+            <syncfusion:TabItemExt
+                x:Name="preIndexadoTab"
+                CanClose="False"
+                CloseButtonState="Collapsed"
+                Header="Preindexado"
+                Visibility="Visible">
+                <Grid x:Name="preIndexadoContainer">
+                    <local:PreIndexadoView
+                        Width="{Binding ElementName=ocrpdfaConatainer, Path=ActualWidth}"
+                        Height="{Binding ElementName=ocrpdfaConatainer, Path=ActualHeight}"
+                        Margin="0,0,0,0" />
+                </Grid>
+            </syncfusion:TabItemExt>
+            <syncfusion:TabItemExt
+                x:Name="tabExportar"
+                CanClose="False"
+                CloseButtonState="Collapsed"
+                Header="Revisión"
+                Visibility="Visible">
+                <Grid x:Name="exportConatainer">
+                    <local:ExportarView
+                        Width="{Binding ElementName=exportConatiner, Path=ActualWidth}"
+                        Height="{Binding ElementName=exportConatiner, Path=ActualHeight}"
+                        Margin="0,0,0,0" />
+                </Grid>
+            </syncfusion:TabItemExt>
+
+        </syncfusion:TabControlExt>
+    </Grid>
+</UserControl>

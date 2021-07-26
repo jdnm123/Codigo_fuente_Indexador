@@ -1,0 +1,152 @@
+﻿<UserControl
+    x:Class="Indexai.Views.PreIndexadoView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Syncfusion="http://schemas.syncfusion.com/wpf"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:indexai="clr-namespace:Indexai"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="865"
+    Height="500"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="68" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Syncfusion:SfDataGrid
+            x:Name="exportGrid"
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="0,56,0,38"
+            AllowFiltering="True"
+            AutoGenerateColumns="False"
+            ColumnSizer="Star"
+            ItemsSource="{Binding ElementName=exportPager, Path=PagedSource}"
+            NavigationMode="Row">
+            <Syncfusion:SfDataGrid.Columns>
+                <Syncfusion:GridTextColumn
+                    HeaderText="Lote"
+                    MappingName="t_lote.nom_lote"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    x:Uid="nro_caja"
+                    HeaderText="Caja"
+                    MappingName="nro_caja"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    HeaderText="NumExpediente"
+                    MappingName="nro_expediente"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    Width="650"
+                    HeaderText="Expediente"
+                    MappingName="nom_expediente"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    HeaderText="Carpeta"
+                    MappingName="nro_carpeta"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    HeaderText="Folios"
+                    MappingName="Folios"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    HeaderText="Paginas"
+                    MappingName="Paginas"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    HeaderText="Asignado"
+                    MappingName="Asignado"
+                    TextAlignment="Left" />
+                <Syncfusion:GridTextColumn
+                    HeaderText="Estado"
+                    MappingName="Estado"
+                    TextAlignment="Left" />
+            </Syncfusion:SfDataGrid.Columns>
+        </Syncfusion:SfDataGrid>
+        <Label
+            Name="txtGridTotalitems"
+            Grid.Row="1"
+            Grid.Column="1"
+            Width="147"
+            Height="26"
+            Margin="5"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Content="Total registros: 0" />
+        <!--
+            indexai:BuscadorLotes
+            x:Name="buscadorView"
+            Grid.Row="1"
+            Margin="0,7,0,0" /
+        -->
+        <Syncfusion:SfDataPager
+            x:Name="exportPager"
+            Grid.Row="1"
+            Grid.Column="1"
+            Height="33"
+            Margin="10,0,-0.2,0"
+            VerticalAlignment="Bottom"
+            HorizontalContentAlignment="Center"
+            PageSize="5" />
+        <TextBox
+            x:Name="txtItemCount"
+            Grid.Row="1"
+            Grid.Column="1"
+            Width="150"
+            Height="24"
+            Margin="10,27,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <Label
+            Grid.Row="1"
+            Grid.Column="1"
+            Height="26"
+            Margin="10,1,-0.2,0"
+            VerticalAlignment="Top"
+            Content="Cantidad máxima de documentos" />
+        <Button
+            x:Name="btnMaximoItemsGrid"
+            Grid.Row="1"
+            Grid.Column="1"
+            Width="86"
+            Height="24"
+            Margin="165,27,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="BtnMaximoItemsGrid_Click"
+            Content="Aplicar"
+            TextElement.FontSize="10" />
+        <Button
+            x:Name="btnPreIndexar"
+            Grid.Column="1"
+            Width="120"
+            Height="38"
+            Margin="10,0,0,10"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Click="btnPreIndexar_Click"
+            Content="Procesar"
+            IsEnabled="False" />
+        <indexai:BuscadorLotes x:Name="buscador" Grid.Row="1" />
+        <ComboBox
+            x:Name="cbxTablaPreindexado"
+            Height="23"
+            Margin="10,35,10,0"
+            VerticalAlignment="Top"
+            DisplayMemberPath="nombre_trd" />
+        <Label
+            Margin="10,5,10,0"
+            VerticalAlignment="Top"
+            Content="Tabla preindexado" />
+    </Grid>
+</UserControl>

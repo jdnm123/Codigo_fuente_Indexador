@@ -1,0 +1,196 @@
+﻿<UserControl
+    x:Class="Indexai.IndexarDocumentos"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:editors="http://schemas.syncfusion.com/wpf"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="385"
+    Height="620"
+    Background="White"
+    mc:Ignorable="d">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical">
+                <Grid Height="35">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="31*" />
+                        <ColumnDefinition Width="42*" />
+                        <ColumnDefinition Width="10" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        Grid.Column="1"
+                        Height="26"
+                        Margin="0,5,10,0"
+                        VerticalAlignment="Top"
+                        Content="Tipos documentales:" />
+                    <Label
+                        x:Name="lblContadorIndexados"
+                        Grid.Column="2"
+                        Height="26"
+                        Margin="10,5,0,0"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Right"
+                        Content="" />
+                </Grid>
+
+                <editors:SfTextBoxExt
+                    x:Name="tipoDocumentos"
+                    Height="32"
+                    Margin="5,0,5,5"
+                    AutoCompleteMode="SuggestAppend"
+                    GotFocus="GotFocus"
+                    IgnoreCase="True"
+                    IgnoreDiacritic="True"
+                    LostFocus="LostFocus"
+                    PreviewKeyDown="tipoDocumentos_PreviewKeyDown"
+                    PreviewKeyUp="tipoDocumentos_PreviewKeyDown"
+                    ShowSuggestionsOnFocus="True"
+                    SuggestionMode="Contains"
+                    ValueMemberPath="Nombre" />
+                <StackPanel x:Name="dynamicInputsStack" Orientation="Vertical">
+                    <Grid
+                        x:Name="textInput_2"
+                        Height="30"
+                        Margin="10,0,10,5"
+                        Visibility="Collapsed">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*" />
+                            <ColumnDefinition Width="34*" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Height="26"
+                            VerticalAlignment="Top"
+                            Content="FECHA DOCUMENTO" />
+                        <TextBox
+                            Grid.Column="1"
+                            Height="26"
+                            Margin="0"
+                            VerticalAlignment="Top"
+                            CharacterCasing="Upper"
+                            Text=""
+                            TextWrapping="Wrap" />
+                    </Grid>
+                    <Grid
+                        x:Name="textInput"
+                        Margin="10,0,10,5"
+                        Visibility="Collapsed">
+                        <StackPanel Orientation="Vertical">
+                            <Label
+                                Height="26"
+                                VerticalAlignment="Top"
+                                Content="FECHA DOCUMENTO" />
+                            <TextBox
+                                MinHeight="30px"
+                                AcceptsReturn="True"
+                                CharacterCasing="Upper"
+                                TextWrapping="Wrap" />
+                            <ListBox
+                                Grid.ColumnSpan="2"
+                                Margin="0,0,0,2"
+                                VerticalAlignment="Bottom"
+                                Background="White"
+                                Visibility="Visible" />
+                        </StackPanel>
+                    </Grid>
+                    <Grid
+                        x:Name="dateInput"
+                        Height="30"
+                        Margin="10,0,10,5"
+                        Visibility="Collapsed">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="43*" />
+                            <ColumnDefinition Width="34*" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Height="26"
+                            VerticalAlignment="Top"
+                            Content="FECHA DOCUMENTO" />
+                        <editors:SfDatePicker
+                            Grid.Column="1"
+                            Height="28"
+                            Margin="0"
+                            VerticalAlignment="Top"
+                            Value="01/01/0001" />
+                    </Grid>
+                    <Grid
+                        x:Name="cbxInput"
+                        Height="28"
+                        Margin="10,0,10,5"
+                        GotFocus="GotFocus"
+                        LostFocus="LostFocus"
+                        Visibility="Collapsed">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="35*" />
+                            <ColumnDefinition Width="38*" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Height="26"
+                            VerticalAlignment="Top"
+                            Content="FECHA DOCUMENTO" />
+                        <editors:SfTextBoxExt
+                            Grid.Column="1"
+                            Height="28"
+                            Margin="0"
+                            VerticalAlignment="Top"
+                            AutoCompleteMode="Suggest"
+                            IgnoreCase="True"
+                            IgnoreDiacritic="True"
+                            SearchItemPath="NombreLimpio"
+                            ShowSuggestionsOnFocus="True"
+                            SuggestionMode="Contains"
+                            ValueMemberPath="Nombre" />
+                    </Grid>
+                    <Grid
+                        x:Name="chkInput"
+                        Height="28"
+                        Margin="10,0,10,5"
+                        Visibility="Collapsed">
+                        <CheckBox
+                            Grid.Column="1"
+                            Height="28"
+                            VerticalAlignment="Top">
+                            Prueba checkbox desde view dinámico
+                        </CheckBox>
+                    </Grid>
+                </StackPanel>
+                <CheckBox
+                    x:Name="chkOmitirSelección"
+                    Margin="10"
+                    VerticalAlignment="Top"
+                    Checked="chkOmitirSelección_Checked"
+                    Content="Omitir selección" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Button
+                        x:Name="btnCancelar"
+                        Grid.Column="2"
+                        Height="40"
+                        Margin="5,0"
+                        VerticalAlignment="Top"
+                        Click="BtnCancelar_Click"
+                        Content="Cancelar" />
+                    <Button
+                        x:Name="btnGuardarIndice"
+                        Height="40"
+                        Margin="5,0"
+                        Click="BtnGuardarIndice_Click"
+                        Content="Guardar" />
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+        <!--<ComboBox
+            x:Name="cbxArchivadores"
+            Grid.ColumnSpan="3"
+            Height="29"
+            Margin="10,41,10,0"
+            VerticalAlignment="Top"
+            DisplayMemberPath="nombre"
+            SelectedIndex="0"
+            SelectionChanged="CbxArchivadores_SelectionChanged" />-->
+    </Grid>
+</UserControl>

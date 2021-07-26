@@ -1,0 +1,238 @@
+﻿<Window
+    x:Class="Indexai.MenuPrincipalRad"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Ventana principal"
+    Width="1152.5"
+    Height="752"
+    HorizontalAlignment="Center"
+    VerticalAlignment="Center"
+    HorizontalContentAlignment="Center"
+    VerticalContentAlignment="Center"
+    Icon="/Assets/home.png"
+    WindowState="Normal"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme
+                    BaseTheme="Light"
+                    PrimaryColor="DeepPurple"
+                    SecondaryColor="Lime" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Shadows.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ToggleButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <materialDesign:DrawerHost IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton, Path=IsChecked}">
+            <materialDesign:DrawerHost.LeftDrawerContent>
+                <DockPanel MinWidth="212">
+                    <ToggleButton
+                        Margin="4"
+                        HorizontalAlignment="Right"
+                        DockPanel.Dock="Top"
+                        IsChecked="{Binding ElementName=MenuToggleButton, Path=IsChecked, Mode=TwoWay}"
+                        Style="{StaticResource MaterialDesignHamburgerToggleButton}" />
+                    <ListBox
+                        x:Name="MenuLateralListBox"
+                        Margin="0,16,0,16"
+                        IsSynchronizedWithCurrentItem="False"
+                        PreviewMouseLeftButtonUp="UIElement_OnPreviewMouseLeftButtonUp"
+                        SelectedIndex="0"
+                        SelectionChanged="MenuLateralListBox_SelectionChanged">
+                        <ListBoxItem x:Name="tabBandejaEntrada" Content="Bandeja Entrada" />
+                        <ListBoxItem x:Name="tabRadicacion" Content="Radicación" />
+                    </ListBox>
+                </DockPanel>
+            </materialDesign:DrawerHost.LeftDrawerContent>
+            <DockPanel>
+
+                <!--  Header  -->
+                <materialDesign:ColorZone
+                    Padding="4"
+                    materialDesign:ShadowAssist.ShadowDepth="Depth2"
+                    DockPanel.Dock="Top"
+                    Mode="PrimaryMid">
+                    <DockPanel>
+                        <ToggleButton
+                            x:Name="MenuToggleButton"
+                            Height="20"
+                            HorizontalAlignment="Left"
+                            IsChecked="False"
+                            Style="{StaticResource MaterialDesignHamburgerToggleButton}" />
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <TextBlock
+                                x:Name="txtUsuario"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Center"
+                                FontSize="14"
+                                Foreground="#FFE6E6E6"
+                                Text="Nom Apellidos" />
+                            <Button
+                                Click="BtnCerrarsesion_Click"
+                                Foreground="#FFE6E6E6"
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                ToolTip="MaterialDesignFlatButton">
+                                <materialDesign:PackIcon Kind="Power" />
+                            </Button>
+                        </StackPanel>
+                    </DockPanel>
+                </materialDesign:ColorZone>
+
+
+                <!--  Footer  -->
+                <materialDesign:ColorZone
+                    Padding="4"
+                    materialDesign:ShadowAssist.ShadowDepth="Depth2"
+                    DockPanel.Dock="Bottom"
+                    Mode="PrimaryMid">
+                    <DockPanel>
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <Label
+                                x:Name="lblVersion"
+                                Margin="0,0,10,0"
+                                HorizontalAlignment="Right"
+                                Content="Versión"
+                                Foreground="White" />
+                        </StackPanel>
+                    </DockPanel>
+                </materialDesign:ColorZone>
+
+                <!--  Menu superior con Iconos principales  -->
+
+                <ToolBarTray
+                    Height="50"
+                    VerticalAlignment="Top"
+                    DockPanel.Dock="Top">
+                    <ToolBarTray.Effect>
+                        <DropShadowEffect Color="#FFE6E6E6" />
+                    </ToolBarTray.Effect>
+                    <ToolBar Padding="2" Style="{DynamicResource MaterialDesignToolBar}">
+                        <StackPanel
+                            Margin="0,0,0,0"
+                            HorizontalAlignment="Left"
+                            Orientation="Horizontal">
+
+                            <Button
+                                Name="btnBandejaEntrada"
+                                Width="131"
+                                Height="42"
+                                Margin="1,0,1,0"
+                                Style="{StaticResource MaterialDesignFlatButton}">
+                                <StackPanel
+                                    Height="40"
+                                    Margin="0,4,0,0"
+                                    Orientation="Vertical">
+                                    <materialDesign:PackIcon
+                                        Width="16"
+                                        Height="16"
+                                        HorizontalAlignment="Center"
+                                        Foreground="#FF5B2C6F"
+                                        Kind="InboxArrowDown" />
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        FontSize="11"
+                                        Foreground="#FF5B2C6F"
+                                        Text="Bandeja" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button
+                                x:Name="btnRadicacionEntrada"
+                                Width="131"
+                                Height="42"
+                                Margin="1,0,1,0"
+                                Style="{StaticResource MaterialDesignFlatButton}">
+                                <StackPanel
+                                    Height="40"
+                                    Margin="0,4,0,0"
+                                    Orientation="Vertical">
+                                    <materialDesign:PackIcon
+                                        Width="16"
+                                        Height="16"
+                                        HorizontalAlignment="Center"
+                                        Foreground="#FF5B2C6F"
+                                        Kind="TextBoxPlusOutline" />
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        FontSize="11"
+                                        Foreground="#FF5B2C6F"
+                                        Text="Radicación Entrada" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button
+                                x:Name="btnRadicacionSalida"
+                                Width="131"
+                                Height="42"
+                                Margin="1,0,1,0"
+                                Style="{StaticResource MaterialDesignFlatButton}">
+                                <StackPanel
+                                    Height="40"
+                                    Margin="0,4,0,0"
+                                    Orientation="Vertical">
+                                    <materialDesign:PackIcon
+                                        Width="16"
+                                        Height="16"
+                                        HorizontalAlignment="Center"
+                                        Foreground="#FF5B2C6F"
+                                        Kind="ExitToApp" />
+                                    <TextBlock
+                                        HorizontalAlignment="Center"
+                                        FontSize="11"
+                                        Foreground="#FF5B2C6F"
+                                        Text="Radicación Salida" />
+                                </StackPanel>
+                            </Button>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Button Style="{DynamicResource MaterialDesignToolButton}">
+                                    <materialDesign:PackIcon Kind="Magnify" Opacity=".56" />
+                                </Button>
+                                <TextBox
+                                    Grid.Column="1"
+                                    MinWidth="200"
+                                    Margin="8,0,0,0"
+                                    VerticalAlignment="Center"
+                                    materialDesign:HintAssist.Hint="Buscar"
+                                    materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                                    BorderThickness="0" />
+                                <Button Grid.Column="2" Style="{DynamicResource MaterialDesignToolButton}">
+                                    <materialDesign:PackIcon
+                                        Margin="8,0,0,0"
+                                        Kind="Microphone"
+                                        Opacity=".56" />
+                                </Button>
+                            </Grid>
+
+                        </StackPanel>
+                    </ToolBar>
+                </ToolBarTray>
+
+
+
+                <Grid>
+                    <ContentControl
+                        x:Name="Container"
+                        Grid.RowSpan="2"
+                        Loaded="Container_Loaded"
+                        SizeChanged="Container_SizeChanged" />
+                </Grid>
+            </DockPanel>
+        </materialDesign:DrawerHost>
+
+    </Grid>
+
+</Window>

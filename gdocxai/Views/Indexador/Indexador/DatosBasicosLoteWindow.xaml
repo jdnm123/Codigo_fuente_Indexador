@@ -1,0 +1,338 @@
+﻿<Window
+    x:Class="Indexai.DatosBasicosLoteWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:behaviors="clr-namespace:WPFTextBoxAutoComplete;assembly=WPFTextBoxAutoComplete"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Datos básicos del lote"
+    Width="640"
+    Height="519.145"
+    LostKeyboardFocus="Window_LostKeyboardFocus"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="SingleBorderWindow"
+    mc:Ignorable="d">
+    <Grid
+        Height="417"
+        Margin="-2,0,1.2,0"
+        VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*" />
+            <ColumnDefinition Width="35*" />
+        </Grid.ColumnDefinitions>
+        <Label
+            Height="26"
+            Margin="10,1,14,0"
+            VerticalAlignment="Top"
+            Content="Numero caja" />
+        <TextBox
+            x:Name="txtNumCaja"
+            Grid.Column="1"
+            Height="23"
+            Margin="10,4,8,0"
+            VerticalAlignment="Top"
+            behaviors:AutoCompleteBehavior.AutoCompleteItemsSource="{Binding Transcriptions}"
+            GotFocus="GotFocus"
+            IsEnabled="False"
+            TabIndex="7"
+            Text=""
+            TextWrapping="Wrap" />
+
+        <Label
+            Height="24"
+            Margin="10,32,13,0"
+            VerticalAlignment="Top"
+            Content="Total de folios" />
+        <TextBox
+            x:Name="txtTotalFolios_numerico"
+            Grid.Column="1"
+            Height="24"
+            Margin="10,34,8,0"
+            VerticalAlignment="Top"
+            behaviors:AutoCompleteBehavior.AutoCompleteItemsSource="{Binding Transcriptions}"
+            GotFocus="GotFocus"
+            Text=""
+            TextWrapping="Wrap" />
+
+        <Label
+            Height="32"
+            Margin="10,60,14,0"
+            VerticalAlignment="Top"
+            Content="Número carpeta" />
+        <TextBox
+            x:Name="txtNumeroCarpeta"
+            Grid.Column="1"
+            Height="24"
+            Margin="10,68,8,0"
+            VerticalAlignment="Top"
+            behaviors:AutoCompleteBehavior.AutoCompleteItemsSource="{Binding Transcriptions}"
+            GotFocus="GotFocus"
+            Text=""
+            TextWrapping="Wrap" />
+
+
+        <Label
+            Height="26"
+            Margin="11,90,12,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="No. Expediente" />
+        <StackPanel
+            Grid.ColumnSpan="2"
+            Margin="15,115,5,0"
+            VerticalAlignment="Top"
+            Panel.ZIndex="92">
+            <TextBox
+                x:Name="txtExpediente"
+                Height="25"
+                Margin="0,0,0.2,0"
+                VerticalAlignment="Top"
+                AcceptsReturn="True"
+                CharacterCasing="Upper"
+                GotFocus="GotFocus"
+                LostFocus="LostFocus"
+                Text=""
+                TextWrapping="Wrap" />
+            <ListBox
+                Grid.ColumnSpan="2"
+                VerticalAlignment="Top"
+                Background="White"
+                Visibility="Visible" />
+        </StackPanel>
+
+        <Label
+            Grid.ColumnSpan="2"
+            Height="26"
+            Margin="11,145,9,0"
+            VerticalAlignment="Top"
+            Content="Expediente"
+            RenderTransformOrigin="0.516,-0.496" />
+        <StackPanel
+            Grid.ColumnSpan="2"
+            Margin="15,165,5,0"
+            VerticalAlignment="Top"
+            Panel.ZIndex="91">
+            <TextBox
+                x:Name="txtNomExpediente"
+                Height="40"
+                Margin="0,0,0.2,0"
+                VerticalAlignment="Top"
+                AcceptsReturn="True"
+                CharacterCasing="Upper"
+                GotFocus="GotFocus"
+                LostFocus="LostFocus"
+                TabIndex="0"
+                Text=""
+                TextWrapping="Wrap" />
+            <ListBox
+                Grid.ColumnSpan="2"
+                VerticalAlignment="Top"
+                Background="White"
+                FontSize="11"
+                Visibility="Visible">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="Padding" Value="0,0,0,0" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
+        </StackPanel>
+        <StackPanel
+            Grid.ColumnSpan="2"
+            Height="61"
+            Margin="15,290,10,0"
+            VerticalAlignment="Top"
+            Panel.ZIndex="60">
+            <StackPanel
+                Height="37"
+                Margin="0,5,0,0"
+                VerticalAlignment="Top"
+                Panel.ZIndex="70"
+                Orientation="Horizontal">
+                <Label
+                    Width="92"
+                    Height="24"
+                    Margin="0,6,1,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Hoja de control " />
+                <StackPanel Margin="0,6,0,0">
+                    <TextBox
+                        x:Name="txthcinio_numerico"
+                        Width="80"
+                        Height="25"
+                        Margin="1,0,1,1"
+                        CharacterCasing="Upper"
+                        GotFocus="GotFocus"
+                        LostFocus="LostFocus"
+                        TabIndex="4"
+                        Text=""
+                        TextWrapping="Wrap" />
+                    <ListBox
+                        Width="80"
+                        Margin="0,-1,0,0"
+                        VerticalAlignment="Bottom"
+                        Background="White"
+                        Visibility="Visible" />
+                </StackPanel>
+
+                <Label
+                    Width="24"
+                    Height="24"
+                    Margin="2,6,2,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="de" />
+                <StackPanel Margin="0,6,12,0">
+                    <TextBox
+                        x:Name="txthcfin_numerico"
+                        Grid.ColumnSpan="2"
+                        Width="80"
+                        Height="25"
+                        Margin="1,0,1,1"
+                        CharacterCasing="Upper"
+                        GotFocus="GotFocus"
+                        LostFocus="LostFocus"
+                        TabIndex="5"
+                        Text=""
+                        TextWrapping="Wrap" />
+                    <ListBox
+                        Grid.ColumnSpan="2"
+                        Width="80"
+                        Margin="0,-1,0,2"
+                        VerticalAlignment="Bottom"
+                        Background="White"
+                        Visibility="Visible" />
+                </StackPanel>
+
+                <Label
+                    Width="39"
+                    Height="24"
+                    Margin="20,6,0,2"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="Tomo " />
+                <StackPanel Margin="0,6,0,0">
+                    <TextBox
+                        x:Name="txtTomoIni"
+                        Grid.ColumnSpan="2"
+                        Width="80"
+                        Height="25"
+                        Margin="1,0,1,1"
+                        CharacterCasing="Upper"
+                        GotFocus="GotFocus"
+                        LostFocus="LostFocus"
+                        TabIndex="6"
+                        Text=""
+                        TextWrapping="Wrap" />
+                    <ListBox
+                        Grid.ColumnSpan="2"
+                        Width="80"
+                        Margin="0,-1,0,2"
+                        VerticalAlignment="Bottom"
+                        Background="White"
+                        Visibility="Visible" />
+                </StackPanel>
+
+                <Label
+                    Width="24"
+                    Height="24"
+                    Margin="2,6,2,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Content="de" />
+                <StackPanel Margin="0,6,0,0">
+                    <TextBox
+                        x:Name="txtTomoFin"
+                        Grid.ColumnSpan="2"
+                        Width="80"
+                        Height="25"
+                        Margin="1,0,1,1"
+                        CharacterCasing="Upper"
+                        GotFocus="GotFocus"
+                        LostFocus="LostFocus"
+                        TabIndex="7"
+                        Text=""
+                        TextWrapping="Wrap" />
+                    <ListBox
+                        Grid.ColumnSpan="2"
+                        Width="80"
+                        Margin="0,-1,0,2"
+                        VerticalAlignment="Bottom"
+                        Background="White"
+                        Visibility="Visible" />
+                </StackPanel>
+            </StackPanel>
+
+        </StackPanel>
+        <!--<Label
+            Grid.ColumnSpan="2"
+            Height="26"
+            Margin="10,345,5,0"
+            VerticalAlignment="Top"
+            Content="Foliador" />
+        <ComboBox
+            x:Name="cbxFoliador"
+            Grid.ColumnSpan="2"
+            Height="22"
+            Margin="10,376,10,0"
+            VerticalAlignment="Top" />-->
+
+        <Label
+            Grid.ColumnSpan="2"
+            Height="23"
+            Margin="12,216,8,0"
+            VerticalAlignment="Top"
+            Content="Observaciones" />
+        <StackPanel
+            Grid.ColumnSpan="2"
+            Margin="15,235,8,0"
+            VerticalAlignment="Top"
+            Panel.ZIndex="90">
+            <TextBox
+                x:Name="txtObservaciones"
+                Height="40"
+                Margin="0,0,0.6,0"
+                VerticalAlignment="Top"
+                AcceptsReturn="True"
+                CharacterCasing="Upper"
+                GotFocus="GotFocus"
+                LostFocus="LostFocus"
+                TabIndex="1"
+                Text=""
+                TextWrapping="Wrap" />
+            <ListBox
+                Grid.ColumnSpan="2"
+                VerticalAlignment="Top"
+                Background="White"
+                FontSize="11"
+                Visibility="Visible">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="Padding" Value="0,0,0,0" />
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
+        </StackPanel>
+        <Button
+            x:Name="btnAceptar"
+            Height="30"
+            Margin="17,0,4,-40"
+            VerticalAlignment="Bottom"
+            Click="BtnAceptar_Click"
+            Content="Aceptar"
+            TabIndex="9" />
+        <Button
+            x:Name="btnCancelar"
+            Grid.Column="1"
+            Height="30"
+            Margin="10,0,10,-40"
+            VerticalAlignment="Bottom"
+            Click="BtnCancelar_Click"
+            Content="Cancelar"
+            RenderTransformOrigin="0.51,-0.727"
+            TabIndex="10" />
+
+    </Grid>
+</Window>

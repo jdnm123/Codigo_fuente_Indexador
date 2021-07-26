@@ -1,0 +1,171 @@
+﻿<UserControl
+    x:Class="Indexai.BuscadorLotes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:editors="http://schemas.syncfusion.com/wpf"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="White">
+        <materialDesign:Card Grid.Row="1" Margin="5">
+            <Grid Margin="10">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Orientation="Vertical">
+                        <Label
+                            Height="28.5"
+                            VerticalAlignment="Top"
+                            Content="Lote" />
+                        <TextBox
+                            x:Name="txtNomLote"
+                            Height="22"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap" />
+                        <Label
+                            Height="28"
+                            VerticalAlignment="Top"
+                            Content="Grupo / Caja"
+                            d:LayoutOverrides="VerticalAlignment" />
+                        <TextBox
+                            x:Name="txtNumCaja_parse"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap"
+                            d:LayoutOverrides="VerticalAlignment" />
+                        <Label
+                            Height="28"
+                            VerticalAlignment="Top"
+                            Content="Nro. Expediente" />
+                        <TextBox
+                            x:Name="txtCodCarpeta_parse"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap" />
+                        <Label
+                            Height="29"
+                            VerticalAlignment="Top"
+                            Content="Expediente" />
+                        <TextBox
+                            x:Name="txtExpediente_parse"
+                            Height="60"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            AcceptsReturn="True"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap" />
+                        <Label
+                            Height="28"
+                            VerticalAlignment="Top"
+                            Content="Nombre de usuario"
+                            Visibility="Visible" />
+                        <TextBox
+                            x:Name="txtUsuario"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap"
+                            Visibility="Visible" />
+                        <Label
+                            Height="28"
+                            VerticalAlignment="Top"
+                            Content="Número Carpeta"
+                            Visibility="Visible" />
+                        <TextBox
+                            x:Name="txtNroCarpeta"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap"
+                            Visibility="Visible" />
+                        <Label
+                            Height="28"
+                            VerticalAlignment="Top"
+                            Content="Desde caja"
+                            Visibility="Visible" />
+                        <TextBox
+                            x:Name="txtRangoMin"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap"
+                            Visibility="Visible" />
+                        <Label
+                            Height="28"
+                            VerticalAlignment="Top"
+                            Content="Hasta caja"
+                            Visibility="Visible" />
+                        <TextBox
+                            x:Name="txtRangoMax"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Text=""
+                            TextWrapping="Wrap"
+                            Visibility="Visible" />
+                        <Label
+                            Height="28"
+                            Margin="0,4,0,4"
+                            VerticalAlignment="Top"
+                            Content="Fecha indexado"
+                            Visibility="Visible" />
+                        <editors:SfDatePicker
+                            x:Name="datePckFechaIndexado"
+                            Height="23"
+                            Margin="10,0"
+                            VerticalAlignment="Top"
+                            GotFocus="GotFocus"
+                            LostFocus="LostFocus"
+                            Visibility="Visible"
+                            Value="" />
+                        <Grid Margin="0,10,0,10" VerticalAlignment="Bottom">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="55*" />
+                                <ColumnDefinition Width="55*" />
+                            </Grid.ColumnDefinitions>
+                            <Button
+                                x:Name="btnBuscar"
+                                Height="40"
+                                Margin="0,20,5,0"
+                                VerticalAlignment="Top"
+                                Click="btnBuscar_Click"
+                                Content="Buscar" />
+                            <Button
+                                x:Name="btnLimpiar"
+                                Grid.Column="1"
+                                Height="40"
+                                Margin="5,20,0,0"
+                                VerticalAlignment="Top"
+                                Click="btnLimpiar_Click"
+                                Content="Limpiar" />
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </materialDesign:Card>
+    </Grid>
+</UserControl>
