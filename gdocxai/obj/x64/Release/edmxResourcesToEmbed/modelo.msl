@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="gdocxModelStoreContainer" CdmEntityContainer="gdocxEntities">
+    <EntitySetMapping Name="p_dependencia">
+      <EntityTypeMapping TypeName="gdocxModel.p_dependencia">
+        <MappingFragment StoreEntitySet="p_dependencia">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="und_administrativa" ColumnName="und_administrativa" />
+          <ScalarProperty Name="id_organizacion" ColumnName="id_organizacion" />
+          <ScalarProperty Name="id_trd" ColumnName="id_trd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_estado">
+      <EntityTypeMapping TypeName="gdocxModel.p_estado">
+        <MappingFragment StoreEntitySet="p_estado">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_formato">
+      <EntityTypeMapping TypeName="gdocxModel.p_formato">
+        <MappingFragment StoreEntitySet="p_formato">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="hc_titulo1" ColumnName="hc_titulo1" />
+          <ScalarProperty Name="hc_titulo2" ColumnName="hc_titulo2" />
+          <ScalarProperty Name="hc_titulo3" ColumnName="hc_titulo3" />
+          <ScalarProperty Name="hc_cal_codigo" ColumnName="hc_cal_codigo" />
+          <ScalarProperty Name="hc_cal_version" ColumnName="hc_cal_version" />
+          <ScalarProperty Name="hc_cal_fecha" ColumnName="hc_cal_fecha" />
+          <ScalarProperty Name="hc_nota1" ColumnName="hc_nota1" />
+          <ScalarProperty Name="hc_nota2" ColumnName="hc_nota2" />
+          <ScalarProperty Name="rc_titulo1" ColumnName="rc_titulo1" />
+          <ScalarProperty Name="rc_titulo2" ColumnName="rc_titulo2" />
+          <ScalarProperty Name="rc_titulo3" ColumnName="rc_titulo3" />
+          <ScalarProperty Name="rc_cal_codigo" ColumnName="rc_cal_codigo" />
+          <ScalarProperty Name="rc_cal_version" ColumnName="rc_cal_version" />
+          <ScalarProperty Name="rc_cal_fecha" ColumnName="rc_cal_fecha" />
+          <ScalarProperty Name="rc_marco_legal" ColumnName="rc_marco_legal" />
+          <ScalarProperty Name="fecha_inicial_defecto" ColumnName="fecha_inicial_defecto" />
+          <ScalarProperty Name="fi_cal_codigo" ColumnName="fi_cal_codigo" />
+          <ScalarProperty Name="fi_cal_version" ColumnName="fi_cal_version" />
+          <ScalarProperty Name="fi_cal_fecha" ColumnName="fi_cal_fecha" />
+          <ScalarProperty Name="fi_titulo1" ColumnName="fi_titulo1" />
+          <ScalarProperty Name="fi_titulo2" ColumnName="fi_titulo2" />
+          <ScalarProperty Name="fi_titulo3" ColumnName="fi_titulo3" />
+          <ScalarProperty Name="fi_objeto" ColumnName="fi_objeto" />
+          <ScalarProperty Name="fi_elaboradox" ColumnName="fi_elaboradox" />
+          <ScalarProperty Name="fi_elaboradox_cargo" ColumnName="fi_elaboradox_cargo" />
+          <ScalarProperty Name="fi_entregadox" ColumnName="fi_entregadox" />
+          <ScalarProperty Name="fi_entregadox_cargo" ColumnName="fi_entregadox_cargo" />
+          <ScalarProperty Name="fi_recibidox" ColumnName="fi_recibidox" />
+          <ScalarProperty Name="fi_recibidox_cargo" ColumnName="fi_recibidox_cargo" />
+          <ScalarProperty Name="fi_lugar" ColumnName="fi_lugar" />
+          <ScalarProperty Name="fi_fecha" ColumnName="fi_fecha" />
+          <ScalarProperty Name="cj_titulo1" ColumnName="cj_titulo1" />
+          <ScalarProperty Name="cj_titulo2" ColumnName="cj_titulo2" />
+          <ScalarProperty Name="cj_titulo3" ColumnName="cj_titulo3" />
+          <ScalarProperty Name="cj_cal_codigo" ColumnName="cj_cal_codigo" />
+          <ScalarProperty Name="cj_cal_version" ColumnName="cj_cal_version" />
+          <ScalarProperty Name="cj_cal_fecha" ColumnName="cj_cal_fecha" />
+          <ScalarProperty Name="ver_hc" ColumnName="ver_hc" />
+          <ScalarProperty Name="ver_rkp" ColumnName="ver_rkp" />
+          <ScalarProperty Name="ver_rcj" ColumnName="ver_rcj" />
+          <ScalarProperty Name="ver_fi" ColumnName="ver_fi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_organizacion">
+      <EntityTypeMapping TypeName="gdocxModel.p_organizacion">
+        <MappingFragment StoreEntitySet="p_organizacion">
+          <ScalarProperty Name="id_empresa" ColumnName="id_empresa" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_proyecto">
+      <EntityTypeMapping TypeName="gdocxModel.p_proyecto">
+        <MappingFragment StoreEntitySet="p_proyecto">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom_proyecto" ColumnName="nom_proyecto" />
+          <ScalarProperty Name="id_empresa" ColumnName="id_empresa" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="ruta_proyecto" ColumnName="ruta_proyecto" />
+          <ScalarProperty Name="extension" ColumnName="extension" />
+          <ScalarProperty Name="meta_diaria" ColumnName="meta_diaria" />
+          <ScalarProperty Name="ruta_salida" ColumnName="ruta_salida" />
+          <ScalarProperty Name="ruta_reportes" ColumnName="ruta_reportes" />
+          <ScalarProperty Name="ruta_firma_entrada" ColumnName="ruta_firma_entrada" />
+          <ScalarProperty Name="ruta_firma_salida" ColumnName="ruta_firma_salida" />
+          <ScalarProperty Name="ruta_servidor" ColumnName="ruta_servidor" />
+          <ScalarProperty Name="nivel_ocr" ColumnName="nivel_ocr" />
+          <ScalarProperty Name="estructura_export" ColumnName="estructura_export" />
+          <ScalarProperty Name="nombre_export" ColumnName="nombre_export" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_recurso">
+      <EntityTypeMapping TypeName="gdocxModel.p_recurso">
+        <MappingFragment StoreEntitySet="p_recurso">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="nom_recurso" ColumnName="nom_recurso" />
+          <ScalarProperty Name="proc_ocr" ColumnName="proc_ocr" />
+          <ScalarProperty Name="proc_pdfa" ColumnName="proc_pdfa" />
+          <ScalarProperty Name="auditoria" ColumnName="auditoria" />
+          <ScalarProperty Name="ruta_pdf" ColumnName="ruta_pdf" />
+          <ScalarProperty Name="nom_carpeta" ColumnName="nom_carpeta" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="proc_hc" ColumnName="proc_hc" />
+          <ScalarProperty Name="ruta_s3" ColumnName="ruta_s3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_serie">
+      <EntityTypeMapping TypeName="gdocxModel.p_serie">
+        <MappingFragment StoreEntitySet="p_serie">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_organizacion" ColumnName="id_organizacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_subdependencia">
+      <EntityTypeMapping TypeName="gdocxModel.p_subdependencia">
+        <MappingFragment StoreEntitySet="p_subdependencia">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_dependencia" ColumnName="id_dependencia" />
+          <ScalarProperty Name="cod" ColumnName="cod" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_subserie">
+      <EntityTypeMapping TypeName="gdocxModel.p_subserie">
+        <MappingFragment StoreEntitySet="p_subserie">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_serie" ColumnName="id_serie" />
+          <ScalarProperty Name="codigo" ColumnName="codigo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="pag_defecto" ColumnName="pag_defecto" />
+          <ScalarProperty Name="alias_subserie" ColumnName="alias_subserie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_tipodoc">
+      <EntityTypeMapping TypeName="gdocxModel.p_tipodoc">
+        <MappingFragment StoreEntitySet="p_tipodoc">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_subserie" ColumnName="id_subserie" />
+          <ScalarProperty Name="cod" ColumnName="cod" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="multiterceros" ColumnName="multiterceros" />
+          <ScalarProperty Name="principal" ColumnName="principal" />
+          <ScalarProperty Name="excluir" ColumnName="excluir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_tipoitem">
+      <EntityTypeMapping TypeName="gdocxModel.p_tipoitem">
+        <MappingFragment StoreEntitySet="p_tipoitem">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="requerido" ColumnName="requerido" />
+          <ScalarProperty Name="orden" ColumnName="orden" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_tiporesp">
+      <EntityTypeMapping TypeName="gdocxModel.p_tiporesp">
+        <MappingFragment StoreEntitySet="p_tiporesp">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_item" ColumnName="id_item" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="vr_padre" ColumnName="vr_padre" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_trd">
+      <EntityTypeMapping TypeName="gdocxModel.p_trd">
+        <MappingFragment StoreEntitySet="p_trd">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="nombre_trd" ColumnName="nombre_trd" />
+          <ScalarProperty Name="donominacion_trd" ColumnName="donominacion_trd" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_usuario">
+      <EntityTypeMapping TypeName="gdocxModel.p_usuario">
+        <MappingFragment StoreEntitySet="p_usuario">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="p_usuario_perfil">
+      <EntityTypeMapping TypeName="gdocxModel.p_usuario_perfil">
+        <MappingFragment StoreEntitySet="p_usuario_perfil">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="superadmin" ColumnName="superadmin" />
+          <ScalarProperty Name="web_admin" ColumnName="web_admin" />
+          <ScalarProperty Name="web_consulta" ColumnName="web_consulta" />
+          <ScalarProperty Name="loc_admin" ColumnName="loc_admin" />
+          <ScalarProperty Name="loc_index" ColumnName="loc_index" />
+          <ScalarProperty Name="loc_calidad" ColumnName="loc_calidad" />
+          <ScalarProperty Name="loc_consulta" ColumnName="loc_consulta" />
+          <ScalarProperty Name="telemetria" ColumnName="telemetria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pr_medio">
+      <EntityTypeMapping TypeName="gdocxModel.pr_medio">
+        <MappingFragment StoreEntitySet="pr_medio">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pr_tiporad">
+      <EntityTypeMapping TypeName="gdocxModel.pr_tiporad">
+        <MappingFragment StoreEntitySet="pr_tiporad">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_archivo">
+      <EntityTypeMapping TypeName="gdocxModel.t_archivo">
+        <MappingFragment StoreEntitySet="t_archivo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="directorio" ColumnName="directorio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="tamanio" ColumnName="tamanio" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+          <ScalarProperty Name="fecha_cargue" ColumnName="fecha_cargue" />
+          <ScalarProperty Name="ancho" ColumnName="ancho" />
+          <ScalarProperty Name="alto" ColumnName="alto" />
+          <ScalarProperty Name="dpix" ColumnName="dpix" />
+          <ScalarProperty Name="dpiy" ColumnName="dpiy" />
+          <ScalarProperty Name="paginas" ColumnName="paginas" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="ocr" ColumnName="ocr" />
+          <ScalarProperty Name="pag_ancho" ColumnName="pag_ancho" />
+          <ScalarProperty Name="pag_alto" ColumnName="pag_alto" />
+          <ScalarProperty Name="escala_gris" ColumnName="escala_gris" />
+          <ScalarProperty Name="firma" ColumnName="firma" />
+          <ScalarProperty Name="firma_valida" ColumnName="firma_valida" />
+          <ScalarProperty Name="dpi" ColumnName="dpi" />
+          <ScalarProperty Name="modificado" ColumnName="modificado" />
+          <ScalarProperty Name="metadata" ColumnName="metadata" />
+          <ScalarProperty Name="pdfa" ColumnName="pdfa" />
+          <ScalarProperty Name="repetido" ColumnName="repetido" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="msj_error" ColumnName="msj_error" />
+          <ScalarProperty Name="extension" ColumnName="extension" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_auditoria">
+      <EntityTypeMapping TypeName="gdocxModel.t_auditoria">
+        <MappingFragment StoreEntitySet="t_auditoria">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="tabla" ColumnName="tabla" />
+          <ScalarProperty Name="identificador" ColumnName="identificador" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_borrar_archivos">
+      <EntityTypeMapping TypeName="gdocxModel.t_borrar_archivos">
+        <MappingFragment StoreEntitySet="t_borrar_archivos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ruta" ColumnName="ruta" />
+          <ScalarProperty Name="nom_archivo" ColumnName="nom_archivo" />
+          <ScalarProperty Name="borrado" ColumnName="borrado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_carpeta">
+      <EntityTypeMapping TypeName="gdocxModel.t_carpeta">
+        <MappingFragment StoreEntitySet="t_carpeta">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_lote" ColumnName="id_lote" />
+          <ScalarProperty Name="nro_expediente" ColumnName="nro_expediente" />
+          <ScalarProperty Name="nom_expediente" ColumnName="nom_expediente" />
+          <ScalarProperty Name="nro_caja" ColumnName="nro_caja" />
+          <ScalarProperty Name="nro_carpeta" ColumnName="nro_carpeta" />
+          <ScalarProperty Name="paginas" ColumnName="paginas" />
+          <ScalarProperty Name="fecha_expediente_ini" ColumnName="fecha_expediente_ini" />
+          <ScalarProperty Name="fecha_expediente_fin" ColumnName="fecha_expediente_fin" />
+          <ScalarProperty Name="total_folios" ColumnName="total_folios" />
+          <ScalarProperty Name="id_tercero" ColumnName="id_tercero" />
+          <ScalarProperty Name="ejecucion" ColumnName="ejecucion" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="idusr_asignado" ColumnName="idusr_asignado" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="exp_ocr" ColumnName="exp_ocr" />
+          <ScalarProperty Name="exp_pdfa" ColumnName="exp_pdfa" />
+          <ScalarProperty Name="exp_firma" ColumnName="exp_firma" />
+          <ScalarProperty Name="idusr_control" ColumnName="idusr_control" />
+          <ScalarProperty Name="hc_inicio" ColumnName="hc_inicio" />
+          <ScalarProperty Name="hc_fin" ColumnName="hc_fin" />
+          <ScalarProperty Name="tomo" ColumnName="tomo" />
+          <ScalarProperty Name="kp_folioini" ColumnName="kp_folioini" />
+          <ScalarProperty Name="kp_foliofin" ColumnName="kp_foliofin" />
+          <ScalarProperty Name="int_caja" ColumnName="int_caja" />
+          <ScalarProperty Name="tomo_fin" ColumnName="tomo_fin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_carpeta_estado">
+      <EntityTypeMapping TypeName="gdocxModel.t_carpeta_estado">
+        <MappingFragment StoreEntitySet="t_carpeta_estado">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_carpeta" ColumnName="id_carpeta" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="fase" ColumnName="fase" />
+          <ScalarProperty Name="rechazado" ColumnName="rechazado" />
+          <ScalarProperty Name="fecha_estado" ColumnName="fecha_estado" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="modificacion_pdf" ColumnName="modificacion_pdf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_documento">
+      <EntityTypeMapping TypeName="gdocxModel.t_documento">
+        <MappingFragment StoreEntitySet="t_documento">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_carpeta" ColumnName="id_carpeta" />
+          <ScalarProperty Name="id_tipodoc" ColumnName="id_tipodoc" />
+          <ScalarProperty Name="pag_ini" ColumnName="pag_ini" />
+          <ScalarProperty Name="pag_fin" ColumnName="pag_fin" />
+          <ScalarProperty Name="ruta_docpdf" ColumnName="ruta_docpdf" />
+          <ScalarProperty Name="doc_ocr" ColumnName="doc_ocr" />
+          <ScalarProperty Name="doc_pdfa" ColumnName="doc_pdfa" />
+          <ScalarProperty Name="doc_firma" ColumnName="doc_firma" />
+          <ScalarProperty Name="folio_ini" ColumnName="folio_ini" />
+          <ScalarProperty Name="folio_fin" ColumnName="folio_fin" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="requiere_seleccion" ColumnName="requiere_seleccion" />
+          <ScalarProperty Name="item" ColumnName="item" />
+          <ScalarProperty Name="nro_doc" ColumnName="nro_doc" />
+          <ScalarProperty Name="nom_doc" ColumnName="nom_doc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_documento_resp">
+      <EntityTypeMapping TypeName="gdocxModel.t_documento_resp">
+        <MappingFragment StoreEntitySet="t_documento_resp">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_documento" ColumnName="id_documento" />
+          <ScalarProperty Name="id_item" ColumnName="id_item" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_documento_tercero">
+      <EntityTypeMapping TypeName="gdocxModel.t_documento_tercero">
+        <MappingFragment StoreEntitySet="t_documento_tercero">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_documento" ColumnName="id_documento" />
+          <ScalarProperty Name="id_tercero" ColumnName="id_tercero" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_listpdf">
+      <EntityTypeMapping TypeName="gdocxModel.t_listpdf">
+        <MappingFragment StoreEntitySet="t_listpdf">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="directorio" ColumnName="directorio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="tamanio" ColumnName="tamanio" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+          <ScalarProperty Name="fecha_cargue" ColumnName="fecha_cargue" />
+          <ScalarProperty Name="ancho" ColumnName="ancho" />
+          <ScalarProperty Name="alto" ColumnName="alto" />
+          <ScalarProperty Name="dpix" ColumnName="dpix" />
+          <ScalarProperty Name="dpiy" ColumnName="dpiy" />
+          <ScalarProperty Name="paginas" ColumnName="paginas" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="ocr" ColumnName="ocr" />
+          <ScalarProperty Name="pag_ancho" ColumnName="pag_ancho" />
+          <ScalarProperty Name="pag_alto" ColumnName="pag_alto" />
+          <ScalarProperty Name="escala_gris" ColumnName="escala_gris" />
+          <ScalarProperty Name="firma" ColumnName="firma" />
+          <ScalarProperty Name="firma_valida" ColumnName="firma_valida" />
+          <ScalarProperty Name="dpi" ColumnName="dpi" />
+          <ScalarProperty Name="modificado" ColumnName="modificado" />
+          <ScalarProperty Name="metadata" ColumnName="metadata" />
+          <ScalarProperty Name="pdfa" ColumnName="pdfa" />
+          <ScalarProperty Name="repetido" ColumnName="repetido" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="msj_error" ColumnName="msj_error" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_lote">
+      <EntityTypeMapping TypeName="gdocxModel.t_lote">
+        <MappingFragment StoreEntitySet="t_lote">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom_lote" ColumnName="nom_lote" />
+          <ScalarProperty Name="id_subdependencia" ColumnName="id_subdependencia" />
+          <ScalarProperty Name="id_subserie" ColumnName="id_subserie" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="fecha_ingreso" ColumnName="fecha_ingreso" />
+          <ScalarProperty Name="marco" ColumnName="marco" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_lpdf_hc">
+      <EntityTypeMapping TypeName="gdocxModel.t_lpdf_hc">
+        <MappingFragment StoreEntitySet="t_lpdf_hc">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="directorio" ColumnName="directorio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="tamanio" ColumnName="tamanio" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+          <ScalarProperty Name="fecha_cargue" ColumnName="fecha_cargue" />
+          <ScalarProperty Name="ancho" ColumnName="ancho" />
+          <ScalarProperty Name="alto" ColumnName="alto" />
+          <ScalarProperty Name="dpix" ColumnName="dpix" />
+          <ScalarProperty Name="dpiy" ColumnName="dpiy" />
+          <ScalarProperty Name="paginas" ColumnName="paginas" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="ocr" ColumnName="ocr" />
+          <ScalarProperty Name="pag_ancho" ColumnName="pag_ancho" />
+          <ScalarProperty Name="pag_alto" ColumnName="pag_alto" />
+          <ScalarProperty Name="escala_gris" ColumnName="escala_gris" />
+          <ScalarProperty Name="firma" ColumnName="firma" />
+          <ScalarProperty Name="firma_valida" ColumnName="firma_valida" />
+          <ScalarProperty Name="dpi" ColumnName="dpi" />
+          <ScalarProperty Name="modificado" ColumnName="modificado" />
+          <ScalarProperty Name="metadata" ColumnName="metadata" />
+          <ScalarProperty Name="pdfa" ColumnName="pdfa" />
+          <ScalarProperty Name="repetido" ColumnName="repetido" />
+          <ScalarProperty Name="id_proyecto" ColumnName="id_proyecto" />
+          <ScalarProperty Name="msj_error" ColumnName="msj_error" />
+          <ScalarProperty Name="s3" ColumnName="s3" />
+          <ScalarProperty Name="textract" ColumnName="textract" />
+          <ScalarProperty Name="nro_pag_hc" ColumnName="nro_pag_hc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_metadata">
+      <EntityTypeMapping TypeName="gdocxModel.t_metadata">
+        <MappingFragment StoreEntitySet="t_metadata">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="direccion_admin" ColumnName="direccion_admin" />
+          <ScalarProperty Name="oficina" ColumnName="oficina" />
+          <ScalarProperty Name="serie" ColumnName="serie" />
+          <ScalarProperty Name="subserie" ColumnName="subserie" />
+          <ScalarProperty Name="identificador" ColumnName="identificador" />
+          <ScalarProperty Name="expediente" ColumnName="expediente" />
+          <ScalarProperty Name="tomo" ColumnName="tomo" />
+          <ScalarProperty Name="fecha_inicial" ColumnName="fecha_inicial" />
+          <ScalarProperty Name="fecha_final" ColumnName="fecha_final" />
+          <ScalarProperty Name="folio_ini" ColumnName="folio_ini" />
+          <ScalarProperty Name="folio_fin" ColumnName="folio_fin" />
+          <ScalarProperty Name="imagenes" ColumnName="imagenes" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="notas" ColumnName="notas" />
+          <ScalarProperty Name="captura" ColumnName="captura" />
+          <ScalarProperty Name="calidad" ColumnName="calidad" />
+          <ScalarProperty Name="nom_archivo" ColumnName="nom_archivo" />
+          <ScalarProperty Name="id_recurso" ColumnName="id_recurso" />
+          <ScalarProperty Name="fecha_ingreso" ColumnName="fecha_ingreso" />
+          <ScalarProperty Name="ruta_final" ColumnName="ruta_final" />
+          <ScalarProperty Name="directorio" ColumnName="directorio" />
+          <ScalarProperty Name="archivo_salida" ColumnName="archivo_salida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_modulo">
+      <EntityTypeMapping TypeName="gdocxModel.t_modulo">
+        <MappingFragment StoreEntitySet="t_modulo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_dependencia" ColumnName="id_dependencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t_tercero">
+      <EntityTypeMapping TypeName="gdocxModel.t_tercero">
+        <MappingFragment StoreEntitySet="t_tercero">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="tipo_documento" ColumnName="tipo_documento" />
+          <ScalarProperty Name="nro_tarjeta" ColumnName="nro_tarjeta" />
+          <ScalarProperty Name="tipo_tercero" ColumnName="tipo_tercero" />
+          <ScalarProperty Name="lugar_exp" ColumnName="lugar_exp" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="lugar" ColumnName="lugar" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="cargo" ColumnName="cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tr_rad_usuario">
+      <EntityTypeMapping TypeName="gdocxModel.tr_rad_usuario">
+        <MappingFragment StoreEntitySet="tr_rad_usuario">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_radicado" ColumnName="id_radicado" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tr_radicado">
+      <EntityTypeMapping TypeName="gdocxModel.tr_radicado">
+        <MappingFragment StoreEntitySet="tr_radicado">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="cod_radicado" ColumnName="cod_radicado" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_tercero" ColumnName="id_tercero" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="lugar" ColumnName="lugar" />
+          <ScalarProperty Name="id_dependencia" ColumnName="id_dependencia" />
+          <ScalarProperty Name="asunto" ColumnName="asunto" />
+          <ScalarProperty Name="fecha_vencimiento" ColumnName="fecha_vencimiento" />
+          <ScalarProperty Name="id_medio" ColumnName="id_medio" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+          <ScalarProperty Name="valido" ColumnName="valido" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pr_plantilla">
+      <EntityTypeMapping TypeName="gdocxModel.pr_plantilla">
+        <MappingFragment StoreEntitySet="pr_plantilla">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_org" ColumnName="id_org" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="ruta_archivo" ColumnName="ruta_archivo" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="fecha_aprobacion" ColumnName="fecha_aprobacion" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tr_rad_adjunto">
+      <EntityTypeMapping TypeName="gdocxModel.tr_rad_adjunto">
+        <MappingFragment StoreEntitySet="tr_rad_adjunto">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_radicado" ColumnName="id_radicado" />
+          <ScalarProperty Name="directorio" ColumnName="directorio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="extension" ColumnName="extension" />
+          <ScalarProperty Name="fecha_modificacion" ColumnName="fecha_modificacion" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+          <ScalarProperty Name="fecha_cargue" ColumnName="fecha_cargue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tr_radicado_estado">
+      <EntityTypeMapping TypeName="gdocxModel.tr_radicado_estado">
+        <MappingFragment StoreEntitySet="tr_radicado_estado">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_radicado" ColumnName="id_radicado" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_dependencia" ColumnName="id_dependencia" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="vobo" ColumnName="vobo" />
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="p_usuario_modulo" TypeName="gdocxModel.p_usuario_modulo" StoreEntitySet="p_usuario_modulo">
+      <EndProperty Name="p_usuario">
+        <ScalarProperty Name="id" ColumnName="userId" />
+      </EndProperty>
+      <EndProperty Name="t_modulo">
+        <ScalarProperty Name="id" ColumnName="moduloId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
